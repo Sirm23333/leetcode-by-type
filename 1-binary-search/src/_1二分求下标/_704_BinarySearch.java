@@ -21,7 +21,7 @@ public class _704_BinarySearch {
 
     public int search(int[] nums, int target) {
         int start = 0, end = nums.length - 1,mid ;
-        while(start <= end){
+        while(start < end){
             mid = (start + end) / 2;
             if(nums[mid] < target){
                 start = mid + 1;
@@ -31,6 +31,6 @@ public class _704_BinarySearch {
                 return mid;
             }
         }
-        return -1;
+        return nums[start] == target ? start : -1;
     }
 }
