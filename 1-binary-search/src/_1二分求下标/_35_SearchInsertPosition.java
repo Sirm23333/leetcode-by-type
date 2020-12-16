@@ -29,16 +29,21 @@ package _1二分求下标;
 public class _35_SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         int start = 0, end = nums.length - 1, mid = 0;
-        while(start <= end){
+        while(start < end){
             mid = (start + end) / 2;
-            if(nums[mid] > target){
-                end = mid - 1;
-            }else if(nums[mid] < target){
-                start = mid + 1;
+            if(nums[mid] < target){
+                mid = start + 1;
+            }else if(nums[mid] > target){
+                mid = end - 1;
             }else {
-                break;
+                return mid;
             }
         }
-        return mid;
+        // 循环结束后，start = end
+        if(nums[start] >= target){
+            return start;
+        }else {
+            return start + 1;
+        }
     }
 }
