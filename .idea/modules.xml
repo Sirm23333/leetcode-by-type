@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/0-daily-problem/0-daily-problem.iml" filepath="$PROJECT_DIR$/0-daily-problem/0-daily-problem.iml" />
       <module fileurl="file://$PROJECT_DIR$/1-binary-search/1-binary-search.iml" filepath="$PROJECT_DIR$/1-binary-search/1-binary-search.iml" />
-      <module fileurl="file://$PROJECT_DIR$/leetcode-by-type.iml" filepath="$PROJECT_DIR$/leetcode-by-type.iml" />
     </modules>
   </component>
 </project>

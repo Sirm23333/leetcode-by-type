@@ -1,3 +1,5 @@
+package 每日一题;
+
 /**
  *48. 旋转图像
  * 给定一个 n × n 的二维矩阵表示一个图像。
@@ -45,7 +47,7 @@
  * 链接：https://leetcode-cn.com/problems/rotate-image
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class _12_18_48_RotateImage {
+public class _12_19_48_RotateImage {
     public void rotate(int[][] matrix) {
         int length = matrix.length , tmp;
         for(int i = 0; i < length / 2; i++){
