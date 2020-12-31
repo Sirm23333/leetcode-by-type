@@ -39,6 +39,7 @@ public class _1095_FindInMountainArray {
         // 二分法找峰值
         int start = 0, end = mountainArr.length() - 1,mid;
         // 这样不会死循环，因为当start=end-1时，mid=start，即使走了else，也会跳出循环
+        // 但如果是else{start=mid}则会死循环
         while (start < end) {
             mid = (start + end) / 2;
             if(mid < mountainArr.length() - 1 && mountainArr.get(mid) < mountainArr.get(mid + 1)){

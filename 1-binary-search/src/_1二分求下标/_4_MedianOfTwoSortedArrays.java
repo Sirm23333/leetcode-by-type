@@ -57,7 +57,7 @@ public class _4_MedianOfTwoSortedArrays {
             return (nums[len / 2 - 1] + nums[len / 2]) / 2.0;
         }
     }
-
+    // 不用排序，直接用两个指针定位中位数
     public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
         int len1 = nums1.length , len2 = nums2.length, len = len1 + len2;
         int i = 0, j = 0 , k = 0;
@@ -82,6 +82,40 @@ public class _4_MedianOfTwoSortedArrays {
             return (Math.max(i > 0 ?  nums1[i-1] : Integer.MIN_VALUE , j > 0 ? nums2[j-1] : Integer.MIN_VALUE) +
                     Math.min(i < len1 ?  nums1[i] : Integer.MAX_VALUE , j < len2 ? nums2[j] : Integer.MAX_VALUE)) / 2.0;
         }
+    }
+    // 二分查找法
+    public double findMedianSortedArrays3(int[] nums1, int[] nums2) {
+        // 保证nums[1]的长度小于nums[2]
+        if(nums1.length > nums2.length){
+            int[] tmp = nums1;
+            nums1 = nums2;
+            nums2 = tmp;
+        }
+        int len1 = nums1.length;
+        int len2 = nums2.length;
+        int leftSize = (len1 + len2) / 2; // 分割线左边元素的数量
+        // 1.要找nums1中的一个位置idx1，即分割线在nums1中的位置，nums1中确定以后，就可以确定nums2中的位置idx2 = leftSize - idx1
+        // 2.idx1和idx2需要满足的条件 nums1[idx1-1] < nums2[idx2] && nums1[idx1] > nums2[idx2 - 1]
+        //      即左边最大的元素要小于右边最小的元素
+        int start = 0 , end = len1 - 1 , idx1 = 0 , idx2 = leftSize - idx1;
+        while(start < end){
+            idx1 = (start + end) / 2 + 1;
+            idx2 = leftSize - idx1;
+            if(idx1 > 0 && nums1[idx1 - 1] > nums2[idx2]){
+                end = idx1 - 1;
+            }else {
+                start = idx1;
+            }
+        }
+         if((len1 + len2) % 2 == 1){
+             // 奇数，返回分割线右边最小的元素
+             return Math.min(idx1 == len1 ? Integer.MAX_VALUE : nums1[idx1] , idx2 == len2 ? Integer.MAX_VALUE : nums2[idx2]);
+         }else {
+             // 偶数，返回分割线左边最大和右边最小的平均数
+             int leftMax = Math.max(idx1 == 0 ? Integer.MIN_VALUE : nums1[idx1 - 1] , idx2 == 0 ? Integer.MIN_VALUE : nums2[idx2 - 1]);
+             int rightMin = Math.min(idx1 == len1 ? Integer.MAX_VALUE : nums1[idx1] , idx2 == len2 ? Integer.MAX_VALUE : nums2[idx2]);
+             return (leftMax + rightMin) / 2.0;
+         }
     }
 
 
