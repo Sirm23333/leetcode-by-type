@@ -198,3 +198,5 @@ $RECYCLE.BIN/
 
 .idea/*
 out/*
+.idea/**
+out/**

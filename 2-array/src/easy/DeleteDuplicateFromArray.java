@@ -1,0 +1,71 @@
+package easy;
+
+/**
+ * 给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+ *
+ * 不要使用额外的数组空间，你必须在 原地 修改输入数组 并在使用 O(1) 额外空间的条件下完成。
+ *
+ * 示例1:
+ * 给定数组 nums = [1,1,2],
+ * 函数应该返回新的长度 2, 并且原数组 nums 的前两个元素被修改为 1, 2。
+ *
+ * 你不需要考虑数组中超出新长度后面的元素。
+ * 示例2:
+ * 给定 nums = [0,0,1,1,1,2,2,3,3,4],
+ * 函数应该返回新的长度 5, 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。
+ *
+ * 你不需要考虑数组中超出新长度后面的元素。
+ *
+ * 作者：力扣 (LeetCode)
+ * 链接：https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/
+ * 来源：力扣（LeetCode）
+ * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+ *
+ * 作者：力扣 (LeetCode)
+ * 链接：https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/
+ * 来源：力扣（LeetCode）
+ * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+ */
+public class DeleteDuplicateFromArray {
+    /**
+     * 普通版本，
+     * 使用不等于判断比使用大于判断要节省一点空间
+     * @param nums
+     * @return
+     */
+    public int removeDuplicates(int[] nums) {
+        int len = nums.length;
+        if(len < 2)
+            return len;
+        int left = 1, right = 1;
+        for(;right < len; right++){
+            if(nums[right] != nums[right - 1]){
+                nums[left++] = nums[right];
+            }
+        }
+        return left;
+    }
+
+    /**
+     * 循环展开，时间100%
+     * @param nums
+     * @return
+     */
+    public int removeDuplicates2(int[] nums) {
+        int len = nums.length;
+        if(len < 2)
+            return len;
+        int left = 1, right = 2;
+        for(;right < len; right += 2){
+            if(nums[right - 1] != nums[right - 2])
+                nums[left++] = nums[right - 1];
+            if(nums[right] != nums[right - 1])
+                nums[left++] = nums[right];
+        }
+        if(right == len && nums[len - 1] != nums[len - 2])
+            nums[left++] = nums[len - 1];
+        return left;
+    }
+
+
+}
