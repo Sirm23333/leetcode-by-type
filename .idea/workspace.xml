@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="(每日一题)12.30-1046.最后一块石头的重量(简单)">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="数组：旋转图像">
+      <change afterPath="$PROJECT_DIR$/3-string/3-string.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-string/src/easy/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +46,44 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mall" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RotateArray">
+    <configuration name="BestTimeToTradeStacksII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.BestTimeToTradeStacksII" />
+      <module name="2-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.RotateArray" />
+      <module name="2-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_12_30_1046_LastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="每日一题._12_30_1046_LastStoneWeight" />
       <module name="0-daily-problem" />
@@ -76,6 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="Application.BestTimeToTradeStacksII" />
         <item itemvalue="Application._12_30_1046_LastStoneWeight" />
       </list>
     </recent_temporary>
@@ -94,6 +130,10 @@
       <workItem from="1608190905021" duration="8944000" />
       <workItem from="1608257938045" duration="6018000" />
       <workItem from="1608543992174" duration="2024000" />
+      <workItem from="1609842573912" duration="182000" />
+      <workItem from="1609842768410" duration="1660000" />
+      <workItem from="1610262829508" duration="1354000" />
+      <workItem from="1610362596896" duration="37227000" />
     </task>
     <task id="LOCAL-00001" summary="(每日一题)12.30-1046.最后一块石头的重量(简单)">
       <created>1609404425826</created>
@@ -102,11 +142,88 @@
       <option name="project" value="LOCAL" />
       <updated>1609404425826</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="数组：包含重复元素">
+      <created>1610522646110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610522646110</updated>
+    </task>
+    <task id="LOCAL-00003" summary="数组：买卖股票II">
+      <created>1610528778674</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610528778674</updated>
+    </task>
+    <task id="LOCAL-00004" summary="数组：旋转数组">
+      <created>1610532508437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610532508437</updated>
+    </task>
+    <task id="LOCAL-00005" summary="数组：旋转数组">
+      <created>1610533732663</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610533732663</updated>
+    </task>
+    <task id="LOCAL-00006" summary="数组：只出现一次的数字">
+      <created>1610534741906</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610534741906</updated>
+    </task>
+    <task id="LOCAL-00007" summary="数组：两个数组的交集 II">
+      <created>1610537910457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610537910457</updated>
+    </task>
+    <task id="LOCAL-00008" summary="数组：加一">
+      <created>1610589635565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610589635565</updated>
+    </task>
+    <task id="LOCAL-00009" summary="数组：移动零">
+      <created>1610591221592</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610591221592</updated>
+    </task>
+    <task id="LOCAL-00010" summary="数组：两数之和">
+      <created>1610594969410</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610594969410</updated>
+    </task>
+    <task id="LOCAL-00011" summary="数组：有效的数独">
+      <created>1610598066643</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610598066643</updated>
+    </task>
+    <task id="LOCAL-00012" summary="数组：旋转图像">
+      <created>1610606297683</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610606297683</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -118,39 +235,83 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="(每日一题)12.30-1046.最后一块石头的重量(简单)" />
-    <option name="LAST_COMMIT_MESSAGE" value="(每日一题)12.30-1046.最后一块石头的重量(简单)" />
+    <MESSAGE value="包含重复元素" />
+    <MESSAGE value="数组：包含重复元素" />
+    <MESSAGE value="数组：买卖股票II" />
+    <MESSAGE value="数组：旋转数组" />
+    <MESSAGE value="数组：只出现一次的数字" />
+    <MESSAGE value="数组：两个数组的交集 II" />
+    <MESSAGE value="数组：加一" />
+    <MESSAGE value="数组：移动零" />
+    <MESSAGE value="数组：两数之和" />
+    <MESSAGE value="数组：有效的数独" />
+    <MESSAGE value="数组：旋转图像" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组：旋转图像" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="710" y="47" key="#Auto_Import" timestamp="1610594128902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="47" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1610594128902" />
+    <state x="279" y="143" key="#Project_Structure" timestamp="1610606404109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="279" y="143" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1610606404109" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1608199684644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608199684644" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1609404292644">
+    <state width="1877" height="320" key="GridCell.Tab.0.bottom" timestamp="1610538919616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609404292644" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1609404292640">
+    <state width="1877" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610538919616" />
+    <state width="1877" height="320" key="GridCell.Tab.0.center" timestamp="1610538919616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609404292640" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1609404292639">
+    <state width="1877" height="320" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610538919616" />
+    <state width="1877" height="320" key="GridCell.Tab.0.left" timestamp="1610538919616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609404292639" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1609404292642">
+    <state width="1877" height="320" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610538919616" />
+    <state width="1877" height="320" key="GridCell.Tab.0.right" timestamp="1610538919616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609404292642" />
+    <state width="1877" height="320" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610538919616" />
+    <state width="1877" height="320" key="GridCell.Tab.1.bottom" timestamp="1610538919621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="320" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610538919621" />
+    <state width="1877" height="320" key="GridCell.Tab.1.center" timestamp="1610538919618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="320" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610538919618" />
+    <state width="1877" height="320" key="GridCell.Tab.1.left" timestamp="1610538919616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="320" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610538919616" />
+    <state width="1877" height="320" key="GridCell.Tab.1.right" timestamp="1610538919620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="320" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610538919620" />
     <state x="737" y="221" key="RollbackChangesDialog" timestamp="1609404454594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="737" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609404454594" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608197102732">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1610535557872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608197102732" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1610535557872" />
+    <state x="373" y="99" key="new project wizard" timestamp="1610606400434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="373" y="99" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610606400434" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610422056157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610422056157" />
   </component>
 </project>
