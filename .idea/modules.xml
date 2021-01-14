@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/0-daily-problem/0-daily-problem.iml" filepath="$PROJECT_DIR$/0-daily-problem/0-daily-problem.iml" />
       <module fileurl="file://$PROJECT_DIR$/1-binary-search/1-binary-search.iml" filepath="$PROJECT_DIR$/1-binary-search/1-binary-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-array/2-array.iml" filepath="$PROJECT_DIR$/2-array/2-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-string/3-string.iml" filepath="$PROJECT_DIR$/3-string/3-string.iml" />
     </modules>
   </component>
 </project>
