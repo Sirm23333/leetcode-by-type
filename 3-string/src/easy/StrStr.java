@@ -50,6 +50,46 @@ public class StrStr {
         return founded ? i - 1 : -1;
     }
 
+    /**
+     * kmp算法
+     * @param haystack
+     * @param needle
+     * @return
+     */
+    public  int strStr2(String haystack, String needle) {
+        if(needle.length() == 0)
+            return  0;
+        char[] hChars = haystack.toCharArray();
+        char[] nChars = needle.toCharArray();
+        int hLen = hChars.length , nLen = nChars.length;
+        // 求next数组
+        int[] next = new int[nLen];
+        next[0] = -1;
+        int i = 0 , j = -1;
+        while(i < nLen - 1){
+            if(j == -1 || nChars[i] == nChars[j])
+                next[++i] = ++j; // j一直为nChars[i]的next值
+            else j = next[j];
+        }
+        // strStr()
+        i = 0;
+        j = 0;
+        while(j < nLen && hLen - i >= nLen - j){
+            if(nChars[j] == hChars[i]){
+                i++;
+                j++;
+            }else {
+                j = next[j];
+                if(j == -1){
+                    j = 0;
+                    i++;
+                }
+            }
+        }
+        return j == nLen  ? i - nLen : -1;
+
+    }
+
 
 
 
