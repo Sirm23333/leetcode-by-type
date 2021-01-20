@@ -200,3 +200,4 @@ $RECYCLE.BIN/
 out/*
 .idea/**
 out/**
+.idea/workspace.xml
