@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/4-linked/src/easy/ReverseList.java" afterDir="false" />
+    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="(链表)：反转链表，迭代+递归">
+      <change afterPath="$PROJECT_DIR$/4-linked/src/easy/MergeTwoLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +173,7 @@
       <workItem from="1610262829508" duration="1354000" />
       <workItem from="1610362596896" duration="64817000" />
       <workItem from="1610956485110" duration="595000" />
-      <workItem from="1611030659427" duration="15107000" />
+      <workItem from="1611030659427" duration="21272000" />
     </task>
     <task id="LOCAL-00001" summary="(每日一题)12.30-1046.最后一块石头的重量(简单)">
       <created>1609404425826</created>
@@ -385,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611126150172</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="(链表)：反转链表，迭代+递归">
+      <created>1611128307493</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1611128307493</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +411,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="包含重复元素" />
     <MESSAGE value="数组：包含重复元素" />
     <MESSAGE value="数组：买卖股票II" />
     <MESSAGE value="数组：旋转数组" />
@@ -429,7 +435,8 @@
     <MESSAGE value="链表：基本链表" />
     <MESSAGE value="链表：删除链表的倒数第N个节点" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="(链表)：反转链表，迭代+递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="(链表)：反转链表，迭代+递归" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1610594128902">
@@ -508,10 +515,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="373" y="99" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611124529229" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611046643008">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611130103715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611046643008" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611130103715" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
