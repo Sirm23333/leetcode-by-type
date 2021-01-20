@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="(链表)：反转链表，迭代+递归">
-      <change afterPath="$PROJECT_DIR$/4-linked/src/easy/MergeTwoLists.java" afterDir="false" />
+    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="(链表)：合并两个有序链表">
+      <change afterPath="$PROJECT_DIR$/4-linked/src/easy/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,10 +67,10 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.StrStr">
-    <configuration name="EffectiveLetterHeterotopicWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.EffectiveLetterHeterotopicWords" />
-      <module name="3-string" />
+  <component name="RunManager" selected="Application.Palindrome (1)">
+    <configuration name="Palindrome (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Palindrome" />
+      <module name="4-linked" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="easy.*" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome (1)" />
         <item itemvalue="Application.StrStr" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.ReverseNum" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.EffectiveLetterHeterotopicWords" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +173,7 @@
       <workItem from="1610262829508" duration="1354000" />
       <workItem from="1610362596896" duration="64817000" />
       <workItem from="1610956485110" duration="595000" />
-      <workItem from="1611030659427" duration="21272000" />
+      <workItem from="1611030659427" duration="23754000" />
     </task>
     <task id="LOCAL-00001" summary="(每日一题)12.30-1046.最后一块石头的重量(简单)">
       <created>1609404425826</created>
@@ -392,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611128307493</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="(链表)：合并两个有序链表">
+      <created>1611134713814</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1611134713814</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +418,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组：包含重复元素" />
     <MESSAGE value="数组：买卖股票II" />
     <MESSAGE value="数组：旋转数组" />
     <MESSAGE value="数组：只出现一次的数字" />
@@ -436,7 +442,8 @@
     <MESSAGE value="链表：删除链表的倒数第N个节点" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="(链表)：反转链表，迭代+递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="(链表)：反转链表，迭代+递归" />
+    <MESSAGE value="(链表)：合并两个有序链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="(链表)：合并两个有序链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1610594128902">
@@ -455,22 +462,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608199684644" />
-    <state width="1877" height="216" key="GridCell.Tab.0.bottom" timestamp="1611059699666">
+    <state width="1877" height="216" key="GridCell.Tab.0.bottom" timestamp="1611136783165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611059699666" />
-    <state width="1877" height="216" key="GridCell.Tab.0.center" timestamp="1611059699666">
+    <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611136783165" />
+    <state width="1877" height="216" key="GridCell.Tab.0.center" timestamp="1611136783165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611059699666" />
-    <state width="1877" height="216" key="GridCell.Tab.0.left" timestamp="1611059699666">
+    <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611136783165" />
+    <state width="1877" height="216" key="GridCell.Tab.0.left" timestamp="1611136783165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611059699666" />
-    <state width="1877" height="216" key="GridCell.Tab.0.right" timestamp="1611059699666">
+    <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611136783165" />
+    <state width="1877" height="216" key="GridCell.Tab.0.right" timestamp="1611136783165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611059699666" />
+    <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611136783165" />
     <state width="1877" height="388" key="GridCell.Tab.1.bottom" timestamp="1611042112394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -503,6 +510,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610691446930" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611136788023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611136788023" />
     <state x="764" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610867223532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
