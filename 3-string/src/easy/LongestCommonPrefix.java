@@ -57,20 +57,20 @@ public class LongestCommonPrefix {
             return "";
         if(strs.length == 1)
             return strs[0];
-        String com = strs[0];
+        int comIdx = strs[0].length();
         for(int i = 1 , j ; i < strs.length; i++){
             j = 0;
-            for(; j < com.length() && j < strs[i].length(); j++){
-                if(com.charAt(j) != strs[i].charAt(j)){
-                    com = com.substring(0,j);
+            for(; j < comIdx && j < strs[i].length(); j++){
+                if(strs[0].charAt(j) != strs[i].charAt(j)){
+                    comIdx = j;
                     break;
                 }
             }
             if(j == strs[i].length()){
-                com = strs[i];
+                comIdx = strs[i].length();
             }
         }
-        return com;
+        return strs[0].substring(0,comIdx);
     }
 
     /**
