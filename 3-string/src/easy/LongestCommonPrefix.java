@@ -81,17 +81,17 @@ public class LongestCommonPrefix {
     public String longestCommonPrefix3(String[] strs ) {
         if(strs.length == 0)
             return "";
-        return longestCommonPrefix3_sub(strs,0,strs.length);
+        return strs[0].substring(0,longestCommonPrefix3_sub(strs,0,strs.length - 1));
     }
-    public String longestCommonPrefix3_sub(String[] strs , int start , int end) {
+    public int longestCommonPrefix3_sub(String[] strs , int start , int end) {
         if(start == end)
-            return strs[start];
-        String left = longestCommonPrefix3_sub(strs , start , (start + end) / 2);
-        String right = longestCommonPrefix3_sub(strs , (start + end) / 2 + 1 , end);
-        for(int i = 0; i < left.length() && i < right.length(); i++){
-            if(left.charAt(i) != right.charAt(i))
-                return left.substring(0,i);
+            return strs[start].length();
+        int left = longestCommonPrefix3_sub(strs , start , (start + end) / 2);
+        int right = longestCommonPrefix3_sub(strs , (start + end) / 2 + 1 , end);
+        for(int i = 0; i < left && i < right; i++){
+            if(strs[start].charAt(i) != strs[end].charAt(i))
+                return i;
         }
-        return left.length() > right.length() ? right : left;
+        return Math.min(left,right);
     }
 }
