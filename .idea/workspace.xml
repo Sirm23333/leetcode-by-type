@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="字符串：最长公共前缀">
-      <change afterPath="$PROJECT_DIR$/4-linked/4-linked.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-linked/src/easy/DeleteNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-linked/src/easy/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="链表：删除链表中的节点">
+      <change beforePath="$PROJECT_DIR$/4-linked/src/easy/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-linked/src/easy/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +172,7 @@
       <workItem from="1610262829508" duration="1354000" />
       <workItem from="1610362596896" duration="64817000" />
       <workItem from="1610956485110" duration="595000" />
-      <workItem from="1611030659427" duration="12583000" />
+      <workItem from="1611030659427" duration="12711000" />
     </task>
     <task id="LOCAL-00001" summary="(每日一题)12.30-1046.最后一块石头的重量(简单)">
       <created>1609404425826</created>
@@ -346,7 +342,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611124448311</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="链表：基础链表node">
+      <created>1611125535981</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1611125535981</updated>
+    </task>
+    <task id="LOCAL-00026" summary="链表：删除链表中的节点">
+      <created>1611125545759</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1611125545759</updated>
+    </task>
+    <task id="LOCAL-00027" summary="链表：删除链表中的节点">
+      <created>1611125552932</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1611125552932</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +403,9 @@
     <MESSAGE value="字符串：实现 strStr()" />
     <MESSAGE value="字符串：实现 strStr() kmp写法" />
     <MESSAGE value="字符串：最长公共前缀" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串：最长公共前缀" />
+    <MESSAGE value="链表：基础链表node" />
+    <MESSAGE value="链表：删除链表中的节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表：删除链表中的节点" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1610594128902">
