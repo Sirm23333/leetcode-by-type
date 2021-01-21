@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="链表：回文链表O(n)时间复杂度O(1)空间复杂度">
-      <change afterPath="$PROJECT_DIR$/4-linked/src/easy/HasCycle.java" afterDir="false" />
+    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="链表：环形链表">
+      <change afterPath="$PROJECT_DIR$/5-tree/5-tree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-tree/src/easy/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +178,7 @@
       <workItem from="1610362596896" duration="64817000" />
       <workItem from="1610956485110" duration="595000" />
       <workItem from="1611030659427" duration="23754000" />
-      <workItem from="1611212434042" duration="10291000" />
+      <workItem from="1611212434042" duration="11480000" />
     </task>
     <task id="LOCAL-00001" summary="(每日一题)12.30-1046.最后一块石头的重量(简单)">
       <created>1609404425826</created>
@@ -423,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611225905617</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="链表：环形链表">
+      <created>1611227196087</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1611227196087</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +451,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组：只出现一次的数字" />
     <MESSAGE value="数组：两个数组的交集 II" />
     <MESSAGE value="数组：加一" />
     <MESSAGE value="数组：移动零" />
@@ -467,17 +475,18 @@
     <MESSAGE value="(链表)：合并两个有序链表" />
     <MESSAGE value="链表：回文链表" />
     <MESSAGE value="链表：回文链表O(n)时间复杂度O(1)空间复杂度" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表：回文链表O(n)时间复杂度O(1)空间复杂度" />
+    <MESSAGE value="链表：环形链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表：环形链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1610594128902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="710" y="47" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1610594128902" />
-    <state x="279" y="143" key="#Project_Structure" timestamp="1611124533525">
+    <state x="279" y="143" key="#Project_Structure" timestamp="1611228316067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="279" y="143" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1611124533525" />
+    <state x="279" y="143" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1611228316067" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1610867375661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -534,10 +543,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610691446930" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611136788023">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611227203876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611136788023" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611227203876" />
     <state x="764" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610867223532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -546,10 +555,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="502" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1610607741057" />
-    <state x="373" y="99" key="new project wizard" timestamp="1611124529229">
+    <state x="404" y="141" width="1251" height="777" key="new project wizard" timestamp="1611228311539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="373" y="99" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611124529229" />
+    <state x="404" y="141" width="1251" height="777" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611228311539" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611130103715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
