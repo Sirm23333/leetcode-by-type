@@ -70,5 +70,69 @@ public class Palindrome {
 
     }
 
+    /**
+     * 翻转后半段+比较
+     * @param head
+     * @return
+     */
+    public boolean isPalindrome3(ListNode head) {
+        if(head == null)
+            return true;
+        // 中间节点
+        ListNode midNode = getMidNode(head);
+        // 翻转后半段
+        ListNode rightHead = reverse(midNode.next);
+        ListNode tmpI = head , tmpJ = rightHead;
+        boolean rs = true;
+        while(tmpJ != null){
+            if(tmpI.val != tmpJ.val){
+                rs = false;
+                break;
+            }
+            tmpI = tmpI.next;
+            tmpJ = tmpJ.next;
+        }
+        // 还原
+        reverse(rightHead);
+        return rs;
+    }
+
+    /**
+     * 获得中间节点
+     * @param head
+     * @return
+     */
+    public ListNode getMidNode(ListNode head){
+        if(head == null || head.next == null)
+            return head;
+        ListNode fast = head , slow = head;
+        while(fast.next != null){
+            fast = fast.next;
+            if(fast.next != null){
+                fast = fast.next;
+                slow = slow.next;
+            }
+        }
+        return slow;
+    }
+
+    /**
+     * 翻转链表
+     * @param head
+     * @return
+     */
+    public ListNode reverse(ListNode head){
+        if(head == null || head.next == null)
+            return head;
+        ListNode newHead = head , tmp;
+        while(head.next != null){
+            tmp = head.next;
+            head.next = tmp.next;
+            tmp.next = newHead;
+            newHead = tmp;
+        }
+        return newHead;
+    }
+
 
 }
