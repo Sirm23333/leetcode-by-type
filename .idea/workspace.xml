@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="(链表)：合并两个有序链表">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-linked/src/easy/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-linked/src/easy/Palindrome.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="链表：回文链表O(n)时间复杂度O(1)空间复杂度" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +173,7 @@
       <workItem from="1610362596896" duration="64817000" />
       <workItem from="1610956485110" duration="595000" />
       <workItem from="1611030659427" duration="23754000" />
-      <workItem from="1611212434042" duration="8257000" />
+      <workItem from="1611212434042" duration="8644000" />
     </task>
     <task id="LOCAL-00001" summary="(每日一题)12.30-1046.最后一块石头的重量(简单)">
       <created>1609404425826</created>
@@ -402,7 +399,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611134713814</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="链表：回文链表">
+      <created>1611225166556</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1611225166556</updated>
+    </task>
+    <task id="LOCAL-00034" summary="链表：回文链表O(n)时间复杂度O(1)空间复杂度">
+      <created>1611225191221</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1611225191221</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,8 +432,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组：买卖股票II" />
-    <MESSAGE value="数组：旋转数组" />
     <MESSAGE value="数组：只出现一次的数字" />
     <MESSAGE value="数组：两个数组的交集 II" />
     <MESSAGE value="数组：加一" />
@@ -446,7 +455,9 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="(链表)：反转链表，迭代+递归" />
     <MESSAGE value="(链表)：合并两个有序链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="(链表)：合并两个有序链表" />
+    <MESSAGE value="链表：回文链表" />
+    <MESSAGE value="链表：回文链表O(n)时间复杂度O(1)空间复杂度" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表：回文链表O(n)时间复杂度O(1)空间复杂度" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1610594128902">
