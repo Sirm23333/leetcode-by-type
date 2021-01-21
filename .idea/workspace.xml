@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="链表：环形链表">
-      <change afterPath="$PROJECT_DIR$/5-tree/5-tree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-tree/src/easy/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="树：基本树节点">
+      <change afterPath="$PROJECT_DIR$/5-tree/src/easy/MaxDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +176,7 @@
       <workItem from="1610362596896" duration="64817000" />
       <workItem from="1610956485110" duration="595000" />
       <workItem from="1611030659427" duration="23754000" />
-      <workItem from="1611212434042" duration="11480000" />
+      <workItem from="1611212434042" duration="12566000" />
     </task>
     <task id="LOCAL-00001" summary="(每日一题)12.30-1046.最后一块石头的重量(简单)">
       <created>1609404425826</created>
@@ -432,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611227196087</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="树：基本树节点">
+      <created>1611228397111</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1611228397111</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +456,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组：两个数组的交集 II" />
     <MESSAGE value="数组：加一" />
     <MESSAGE value="数组：移动零" />
     <MESSAGE value="数组：两数之和" />
@@ -476,7 +480,8 @@
     <MESSAGE value="链表：回文链表" />
     <MESSAGE value="链表：回文链表O(n)时间复杂度O(1)空间复杂度" />
     <MESSAGE value="链表：环形链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表：环形链表" />
+    <MESSAGE value="树：基本树节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="树：基本树节点" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1610594128902">
