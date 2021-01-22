@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="树：验证二叉搜索树更优雅的递归写法">
-      <change afterPath="$PROJECT_DIR$/5-tree/src/easy/Symmetric.java" afterDir="false" />
+    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="树：对称二叉树">
+      <change afterPath="$PROJECT_DIR$/5-tree/src/easy/LevelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +176,7 @@
       <workItem from="1610362596896" duration="64817000" />
       <workItem from="1610956485110" duration="595000" />
       <workItem from="1611030659427" duration="23754000" />
-      <workItem from="1611212434042" duration="24867000" />
+      <workItem from="1611212434042" duration="26257000" />
     </task>
     <task id="LOCAL-00001" summary="(每日一题)12.30-1046.最后一块石头的重量(简单)">
       <created>1609404425826</created>
@@ -458,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611298714510</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="树：对称二叉树">
+      <created>1611311022456</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1611311022456</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +484,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组：有效的数独" />
     <MESSAGE value="数组：旋转图像" />
     <MESSAGE value="数组：反转字符串" />
     <MESSAGE value="数组：整数反转" />
@@ -502,7 +508,8 @@
     <MESSAGE value="树：二叉树的最大深度" />
     <MESSAGE value="树：验证二叉搜索树" />
     <MESSAGE value="树：验证二叉搜索树更优雅的递归写法" />
-    <option name="LAST_COMMIT_MESSAGE" value="树：验证二叉搜索树更优雅的递归写法" />
+    <MESSAGE value="树：对称二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="树：对称二叉树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1610594128902">
