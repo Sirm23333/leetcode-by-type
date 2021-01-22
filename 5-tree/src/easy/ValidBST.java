@@ -103,5 +103,22 @@ public class ValidBST {
         return false;
     }
 
+    /**
+     * 更优雅的递归写法
+     * @param root
+     * @return
+     */
+    public boolean isValidBST4(TreeNode root) {
+        return isValidBST4_sub(root,Long.MIN_VALUE , Long.MAX_VALUE);
+    }
+    // root为BST并且root的所有val都在(lower,upper)
+    public boolean isValidBST4_sub(TreeNode root , long lower , long upper){
+        if(root == null)
+            return true;
+        if(root.val <= lower || root.val >= upper)
+            return false;
+        return isValidBST4_sub(root.left , lower , root.val) && isValidBST4_sub(root.right , root.val , upper);
+    }
+
 
 }

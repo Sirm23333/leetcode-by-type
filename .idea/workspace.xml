@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="树：二叉树的最大深度">
-      <change afterPath="$PROJECT_DIR$/5-tree/src/easy/ValidBST.java" afterDir="false" />
+    <list default="true" id="d4daaac5-66ed-45ad-b950-54253ea093a1" name="Default Changelist" comment="树：验证二叉搜索树">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-tree/src/easy/ValidBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/5-tree/src/easy/ValidBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,7 @@
       <workItem from="1610362596896" duration="64817000" />
       <workItem from="1610956485110" duration="595000" />
       <workItem from="1611030659427" duration="23754000" />
-      <workItem from="1611212434042" duration="16640000" />
+      <workItem from="1611212434042" duration="17466000" />
     </task>
     <task id="LOCAL-00001" summary="(每日一题)12.30-1046.最后一块石头的重量(简单)">
       <created>1609404425826</created>
@@ -444,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611229469872</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="树：验证二叉搜索树">
+      <created>1611297937849</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1611297937849</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +470,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组：移动零" />
     <MESSAGE value="数组：两数之和" />
     <MESSAGE value="数组：有效的数独" />
     <MESSAGE value="数组：旋转图像" />
@@ -488,7 +494,8 @@
     <MESSAGE value="链表：环形链表" />
     <MESSAGE value="树：基本树节点" />
     <MESSAGE value="树：二叉树的最大深度" />
-    <option name="LAST_COMMIT_MESSAGE" value="树：二叉树的最大深度" />
+    <MESSAGE value="树：验证二叉搜索树" />
+    <option name="LAST_COMMIT_MESSAGE" value="树：验证二叉搜索树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1610594128902">
