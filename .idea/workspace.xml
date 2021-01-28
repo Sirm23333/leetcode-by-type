@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/7-dynamic-programming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/easy/ClimbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/easy/BestTimeToTradeStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +25,7 @@
   <component name="ProjectId" id="1lxgMXWRQz5JcL03Crbgye24OxG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -56,8 +56,17 @@
       <updated>1608544108653</updated>
       <workItem from="1608544112241" duration="1263000" />
       <workItem from="1611637869101" duration="127000" />
-      <workItem from="1611638026207" duration="1988000" />
+      <workItem from="1611638026207" duration="2054000" />
+      <workItem from="1611869143708" duration="2269000" />
     </task>
+    <task id="LOCAL-00001" summary="动态规划：爬楼梯">
+      <created>1611640799765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611640799765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="动态规划：爬楼梯" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划：爬楼梯" />
   </component>
 </project>
