@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/5-tree/5-tree.iml" filepath="$PROJECT_DIR$/5-tree/5-tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/6-sort-search/6-sort-search.iml" filepath="$PROJECT_DIR$/6-sort-search/6-sort-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/7-dynamic-programming/7-dynamic-programming.iml" filepath="$PROJECT_DIR$/7-dynamic-programming/7-dynamic-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8-math/8-math.iml" filepath="$PROJECT_DIR$/8-math/8-math.iml" />
     </modules>
   </component>
 </project>
