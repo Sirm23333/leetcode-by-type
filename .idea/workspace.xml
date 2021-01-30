@@ -17,9 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8-math/8-math.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-math/src/easy/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-math/src/easy/CountPrimes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +96,7 @@
       <workItem from="1611979821943" duration="49000" />
       <workItem from="1611981476550" duration="3523000" />
       <workItem from="1611906516873" duration="23000" />
-      <workItem from="1611906561209" duration="7382000" />
+      <workItem from="1611906561209" duration="9681000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划：爬楼梯">
       <created>1611640799765</created>
@@ -135,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612010891668</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="数学：FizzBuzz">
+      <created>1612011428811</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612011428811</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,17 +175,18 @@
     <MESSAGE value="动态规划：买卖股票的最佳时机" />
     <MESSAGE value="动态规划：最大子序和" />
     <MESSAGE value="动态规划：打家劫舍" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划：打家劫舍" />
+    <MESSAGE value="数学：FizzBuzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="数学：FizzBuzz" />
   </component>
   <component name="WindowStateProjectService">
     <state x="278" y="62" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611981822059">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1611981822059" />
-    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612010891496">
+    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612011428705">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612010891496" />
+    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612011428705" />
     <state x="266" y="135" width="824" height="528" key="IDE.errors.dialog" timestamp="1611981915130">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
