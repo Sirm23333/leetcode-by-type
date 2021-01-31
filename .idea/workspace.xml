@@ -17,7 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8-math/src/easy/RomanToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-design/9-design.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-design/src/easy/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +61,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
@@ -195,6 +200,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="数学：3的幂" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state x="166" y="34" width="1024" height="730" key="#Project_Structure/0.34.1366.734@0.34.1366.734" timestamp="1612072803128" />
     <state x="278" y="62" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611981822059">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
@@ -219,9 +228,9 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="339" y="286" width="678" height="225" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.34.1366.734@0.34.1366.734" timestamp="1611981950210" />
-    <state x="0" y="34" width="1356" height="730" key="new project wizard" timestamp="1612010988666">
+    <state x="0" y="34" width="1356" height="730" key="new project wizard" timestamp="1612072798483">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="0" y="34" width="1356" height="730" key="new project wizard/0.34.1366.734@0.34.1366.734" timestamp="1612010988666" />
+    <state x="0" y="34" width="1356" height="730" key="new project wizard/0.34.1366.734@0.34.1366.734" timestamp="1612072798483" />
   </component>
 </project>
