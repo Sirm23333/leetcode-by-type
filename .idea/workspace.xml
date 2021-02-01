@@ -17,7 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9-design/src/easy/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-others/10-others.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-others/src/easy/HammingWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612073633626</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="设计：打乱数组">
+      <created>1612074670655</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612074670655</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +230,8 @@
     <MESSAGE value="数学：计数质数" />
     <MESSAGE value="数学：3的幂" />
     <MESSAGE value="设计：最小栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计：最小栈" />
+    <MESSAGE value="设计：打乱数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计：打乱数组" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
@@ -232,10 +242,26 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1611981822059" />
-    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612073633539">
+    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612074670556">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612073633539" />
+    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612074670556" />
+    <state width="1312" height="170" key="GridCell.Tab.0.bottom" timestamp="1612074567776">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1312" height="170" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612074567776" />
+    <state width="1312" height="170" key="GridCell.Tab.0.center" timestamp="1612074567775">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1312" height="170" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1612074567775" />
+    <state width="1312" height="170" key="GridCell.Tab.0.left" timestamp="1612074567775">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1312" height="170" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1612074567775" />
+    <state width="1312" height="170" key="GridCell.Tab.0.right" timestamp="1612074567776">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1312" height="170" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1612074567776" />
     <state x="266" y="135" width="814" height="528" key="IDE.errors.dialog" timestamp="1612014493548">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
@@ -244,17 +270,21 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="164" y="36" key="SettingsEditor/0.34.1366.734@0.34.1366.734" timestamp="1611906539450" />
-    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1612013953852">
+    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1612074695666">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1612013953852" />
+    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1612074695666" />
     <state x="339" y="286" width="678" height="225" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611981950210">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="339" y="286" width="678" height="225" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.34.1366.734@0.34.1366.734" timestamp="1611981950210" />
-    <state x="0" y="34" width="1356" height="730" key="new project wizard" timestamp="1612072798483">
+    <state x="0" y="34" width="1356" height="730" key="new project wizard" timestamp="1612152441838">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="0" y="34" width="1356" height="730" key="new project wizard/0.34.1366.734@0.34.1366.734" timestamp="1612072798483" />
+    <state x="0" y="34" width="1356" height="730" key="new project wizard/0.34.1366.734@0.34.1366.734" timestamp="1612152441838" />
+    <state x="347" y="178" key="run.anything.popup" timestamp="1612154310457">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state x="347" y="178" key="run.anything.popup/0.34.1366.734@0.34.1366.734" timestamp="1612154310457" />
   </component>
 </project>
