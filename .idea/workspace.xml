@@ -17,9 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10-others/10-others.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-others/src/easy/HammingWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-others/src/easy/HammingDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612074670655</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="其他：汉明距离">
+      <created>1612154487665</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612154487665</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +236,8 @@
     <MESSAGE value="数学：3的幂" />
     <MESSAGE value="设计：最小栈" />
     <MESSAGE value="设计：打乱数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计：打乱数组" />
+    <MESSAGE value="其他：汉明距离" />
+    <option name="LAST_COMMIT_MESSAGE" value="其他：汉明距离" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
@@ -242,10 +248,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1611981822059" />
-    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612074670556">
+    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612154487553">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612074670556" />
+    <state x="82" y="34" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612154487553" />
     <state width="1312" height="170" key="GridCell.Tab.0.bottom" timestamp="1612074567776">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
