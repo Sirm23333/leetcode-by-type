@@ -17,7 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2-array/src/easy/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-array/src/medium/ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612267484357</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="其他：多数元素">
+      <created>1612322574849</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612322574849</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +283,8 @@
     <MESSAGE value="其他：杨辉三角形" />
     <MESSAGE value="其他：有效的括号" />
     <MESSAGE value="其他：缺失数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="其他：缺失数字" />
+    <MESSAGE value="数组：多数元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组：多数元素" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
@@ -287,14 +295,14 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1611981822059" />
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612267484137">
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612322574612">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612267484137" />
-    <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1612154671629">
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612322574612" />
+    <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1612323579084">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.34.1366.734@0.34.1366.734" timestamp="1612154671629" />
+    <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.34.1366.734@0.34.1366.734" timestamp="1612323579084" />
     <state width="1312" height="10" key="GridCell.Tab.0.bottom" timestamp="1612154634283">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
@@ -335,5 +343,9 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="347" y="178" key="run.anything.popup/0.34.1366.734@0.34.1366.734" timestamp="1612154310457" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1612323574225">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.34.1366.734@0.34.1366.734" timestamp="1612323574225" />
   </component>
 </project>
