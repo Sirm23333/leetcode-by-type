@@ -17,8 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3-string/src/medium/LongestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-string/src/medium/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-string/src/medium/LongestPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +64,22 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
+  <component name="RunManager" selected="Application.LongestPalindrome">
     <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.LengthOfLongestSubstring" />
+      <module name="3-string" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.LongestPalindrome" />
       <module name="3-string" />
       <extension name="coverage">
         <pattern>
@@ -106,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.Solution" />
       </list>
@@ -134,7 +148,7 @@
       <workItem from="1611981476550" duration="3523000" />
       <workItem from="1611906516873" duration="23000" />
       <workItem from="1611906561209" duration="13590000" />
-      <workItem from="1612420696057" duration="19079000" />
+      <workItem from="1612420696057" duration="20787000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划：爬楼梯">
       <created>1611640799765</created>
@@ -290,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612500588466</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="数组：最长回文子串,暴力法(中等)">
+      <created>1612588635905</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612588635905</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +361,8 @@
     <MESSAGE value="数组：矩阵置零(中等)" />
     <MESSAGE value="数组：字母异位词分组(中等)" />
     <MESSAGE value="数组：无重复字符的最长子串(中等)" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组：无重复字符的最长子串(中等)" />
+    <MESSAGE value="数组：最长回文子串,暴力法(中等)" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组：最长回文子串,暴力法(中等)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
@@ -351,46 +373,46 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1611981822059" />
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612500588362">
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612588635763">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612500588362" />
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612588635763" />
     <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1612323579084">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.34.1366.734@0.34.1366.734" timestamp="1612323579084" />
-    <state width="1312" height="227" key="GridCell.Tab.0.bottom" timestamp="1612500208837">
+    <state width="1312" height="133" key="GridCell.Tab.0.bottom" timestamp="1612590030259">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="227" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612500208837" />
-    <state width="1312" height="227" key="GridCell.Tab.0.center" timestamp="1612500208836">
+    <state width="1312" height="133" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612590030259" />
+    <state width="1312" height="133" key="GridCell.Tab.0.center" timestamp="1612590030259">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="227" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1612500208836" />
-    <state width="1312" height="227" key="GridCell.Tab.0.left" timestamp="1612500208836">
+    <state width="1312" height="133" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1612590030259" />
+    <state width="1312" height="133" key="GridCell.Tab.0.left" timestamp="1612590030257">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="227" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1612500208836" />
-    <state width="1312" height="227" key="GridCell.Tab.0.right" timestamp="1612500208837">
+    <state width="1312" height="133" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1612590030257" />
+    <state width="1312" height="133" key="GridCell.Tab.0.right" timestamp="1612590030259">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="227" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1612500208837" />
-    <state width="1312" height="227" key="GridCell.Tab.1.bottom" timestamp="1612500209121">
+    <state width="1312" height="133" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1612590030259" />
+    <state width="1312" height="133" key="GridCell.Tab.1.bottom" timestamp="1612590030590">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="227" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612500209121" />
-    <state width="1312" height="227" key="GridCell.Tab.1.center" timestamp="1612500209120">
+    <state width="1312" height="133" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612590030590" />
+    <state width="1312" height="133" key="GridCell.Tab.1.center" timestamp="1612590030587">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="227" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1612500209120" />
-    <state width="1312" height="227" key="GridCell.Tab.1.left" timestamp="1612500209119">
+    <state width="1312" height="133" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1612590030587" />
+    <state width="1312" height="133" key="GridCell.Tab.1.left" timestamp="1612590030586">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="227" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1612500209119" />
-    <state width="1312" height="227" key="GridCell.Tab.1.right" timestamp="1612500209120">
+    <state width="1312" height="133" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1612590030586" />
+    <state width="1312" height="133" key="GridCell.Tab.1.right" timestamp="1612590030588">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="227" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1612500209120" />
+    <state width="1312" height="133" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1612590030588" />
     <state x="266" y="135" width="814" height="528" key="IDE.errors.dialog" timestamp="1612014493548">
       <screen x="0" y="34" width="1366" height="734" />
     </state>

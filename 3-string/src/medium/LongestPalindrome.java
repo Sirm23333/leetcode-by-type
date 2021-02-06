@@ -39,16 +39,19 @@ public class LongestPalindrome {
 
     /**
      * 中心扩散法
+     * O(n^2)
      * @param s
      * @return
      */
-    public String longestPalindrome2(String s) {
+    public static String longestPalindrome2(String s) {
+        if(s.length() < 2)
+            return s;
         int len = s.length();
         char[] chars = s.toCharArray();
         int max = Integer.MIN_VALUE,center = 0;
         for(int i = 0; i < len - 1; i++){
-            int len1 = expandAroundCenter(chars , i , i) * 2 + 1; // 中心是一个数
-            int len2 = expandAroundCenter(chars , i , i+1) * 2 + 2; // 中心是一个位置
+            int len1 = expandAroundCenter(chars , i , i) * 2 - 1; // 中心是一个数
+            int len2 = expandAroundCenter(chars , i , i+1) * 2 ; // 中心是一个位置
             if(len1 > len2 && len1 > max){
                 max = len1;
                 center = i;
@@ -57,11 +60,17 @@ public class LongestPalindrome {
                 center = i;
             }
         }
-        return  s.substring(center - max / 2, max % 2 == 0 ? 1 : 0 + center + max / 2 + 1);
+        if(max % 2 == 1)
+            return s.substring(center - max / 2 , center + max / 2 + 1);
+        return s.substring(center - max / 2 + 1 , center + max / 2 + 1);
     }
-    private int expandAroundCenter(char[] chars , int i, int j){
+    private static  int expandAroundCenter(char[] chars , int i, int j){
         int len = 0;
-        while(i >= 0 && j < len && chars[i--] == chars[j++]) len++;
+        while(i >= 0 && j < chars.length  && chars[i--] == chars[j++]) len++;
         return len;
+    }
+
+    public static void main(String[] args) {
+        longestPalindrome2("ccc");
     }
 }
