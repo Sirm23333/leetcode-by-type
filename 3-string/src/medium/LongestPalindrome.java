@@ -70,7 +70,41 @@ public class LongestPalindrome {
         return len;
     }
 
-    public static void main(String[] args) {
-        longestPalindrome2("ccc");
+    /**
+     * 动态规划
+     * @param s
+     * @return
+     */
+    public static String longestPalindrome3(String s) {
+        if(s.length() < 2)
+            return s;
+        int len = s.length();
+        char[] chars = s.toCharArray();
+        boolean[][] dp = new boolean[len][len]; // dp[i][j]表示[i,j]是否是回文
+        int max = 0, start = 0 ,  end = 0;
+        for(int l = 1; l < len + 1; l++){
+            for(int i = 0; i < len - l + 1; i++){
+                // 以i开头，长度为l的子串
+                int j = i + l - 1;
+                if( chars[i] == chars[j] && (l <= 2 || dp[i+1][j-1])){
+                    dp[i][j] = true;
+                    if(max < j - i + 1){
+                        max = j - i + 1;
+                        start = i;
+                        end = j;
+                    }
+                }
+            }
+        }
+        return s.substring(start , end + 1);
     }
+
+
+    public static void main(String[] args) {
+        longestPalindrome3("bb");
+    }
+
+
+
+
 }
