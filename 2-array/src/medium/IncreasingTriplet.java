@@ -15,7 +15,6 @@ public class IncreasingTriplet {
     /**
      * 暴力法
      * O(n^3)
-     * 超时
      * @param nums
      * @return
      */
@@ -23,9 +22,11 @@ public class IncreasingTriplet {
         int len = nums.length;
         for(int i = 0; i < len; i++){
             for(int j = i + 1; j < len; j++){
-                for(int k = j + 1; k < len; k++){
-                    if(nums[i] < nums[j] && nums[j] < nums[k])
-                        return true;
+                if(nums[i] < nums[j]){
+                    for(int k = j + 1; k < len; k++){
+                        if(nums[j] < nums[k])
+                            return true;
+                    }
                 }
             }
         }
