@@ -17,8 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2-array/src/medium/IncreasingTriplet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-string/src/medium/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-string/src/medium/LongestPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +148,7 @@
       <workItem from="1611981476550" duration="3523000" />
       <workItem from="1611906516873" duration="23000" />
       <workItem from="1611906561209" duration="13590000" />
-      <workItem from="1612420696057" duration="20787000" />
+      <workItem from="1612420696057" duration="27226000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划：爬楼梯">
       <created>1611640799765</created>
@@ -311,7 +311,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612588635905</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="数组：最长回文子串,中心扩散法(中等)">
+      <created>1612590168276</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1612590168276</updated>
+    </task>
+    <task id="LOCAL-00025" summary="数组：最长回文子串,动态规划(中等)">
+      <created>1612613705676</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1612613705676</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +376,9 @@
     <MESSAGE value="数组：字母异位词分组(中等)" />
     <MESSAGE value="数组：无重复字符的最长子串(中等)" />
     <MESSAGE value="数组：最长回文子串,暴力法(中等)" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组：最长回文子串,暴力法(中等)" />
+    <MESSAGE value="数组：最长回文子串,中心扩散法(中等)" />
+    <MESSAGE value="数组：最长回文子串,动态规划(中等)" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组：最长回文子串,动态规划(中等)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
@@ -373,46 +389,46 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1611981822059" />
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612588635763">
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612613705548">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612588635763" />
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612613705548" />
     <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1612323579084">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.34.1366.734@0.34.1366.734" timestamp="1612323579084" />
-    <state width="1312" height="133" key="GridCell.Tab.0.bottom" timestamp="1612590030259">
+    <state width="1312" height="301" key="GridCell.Tab.0.bottom" timestamp="1612613497272">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="133" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612590030259" />
-    <state width="1312" height="133" key="GridCell.Tab.0.center" timestamp="1612590030259">
+    <state width="1312" height="301" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612613497272" />
+    <state width="1312" height="301" key="GridCell.Tab.0.center" timestamp="1612613497271">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="133" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1612590030259" />
-    <state width="1312" height="133" key="GridCell.Tab.0.left" timestamp="1612590030257">
+    <state width="1312" height="301" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1612613497271" />
+    <state width="1312" height="301" key="GridCell.Tab.0.left" timestamp="1612613497270">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="133" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1612590030257" />
-    <state width="1312" height="133" key="GridCell.Tab.0.right" timestamp="1612590030259">
+    <state width="1312" height="301" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1612613497270" />
+    <state width="1312" height="301" key="GridCell.Tab.0.right" timestamp="1612613497271">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="133" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1612590030259" />
-    <state width="1312" height="133" key="GridCell.Tab.1.bottom" timestamp="1612590030590">
+    <state width="1312" height="301" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1612613497271" />
+    <state width="1312" height="301" key="GridCell.Tab.1.bottom" timestamp="1612613497589">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="133" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612590030590" />
-    <state width="1312" height="133" key="GridCell.Tab.1.center" timestamp="1612590030587">
+    <state width="1312" height="301" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612613497589" />
+    <state width="1312" height="301" key="GridCell.Tab.1.center" timestamp="1612613497582">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="133" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1612590030587" />
-    <state width="1312" height="133" key="GridCell.Tab.1.left" timestamp="1612590030586">
+    <state width="1312" height="301" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1612613497582" />
+    <state width="1312" height="301" key="GridCell.Tab.1.left" timestamp="1612613497582">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="133" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1612590030586" />
-    <state width="1312" height="133" key="GridCell.Tab.1.right" timestamp="1612590030588">
+    <state width="1312" height="301" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1612613497582" />
+    <state width="1312" height="301" key="GridCell.Tab.1.right" timestamp="1612613497584">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="133" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1612590030588" />
+    <state width="1312" height="301" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1612613497584" />
     <state x="266" y="135" width="814" height="528" key="IDE.errors.dialog" timestamp="1612014493548">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
@@ -425,10 +441,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="164" y="36" key="SettingsEditor/0.34.1366.734@0.34.1366.734" timestamp="1611906539450" />
-    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1612500617744">
+    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1612615380298">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1612500617744" />
+    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1612615380298" />
     <state x="339" y="286" width="678" height="225" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611981950210">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
