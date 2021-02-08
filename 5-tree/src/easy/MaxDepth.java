@@ -1,5 +1,7 @@
 package easy;
 
+import base.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 

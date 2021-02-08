@@ -1,6 +1,6 @@
 package easy;
 
-import java.util.List;
+import base.TreeNode;
 
 /**
  * 验证二叉搜索树
