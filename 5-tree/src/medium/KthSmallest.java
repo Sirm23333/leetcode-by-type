@@ -4,6 +4,7 @@ import base.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  *二叉搜索树中第K小的元素
@@ -32,6 +33,37 @@ public class KthSmallest {
             list.add(root.val);
             inorder(root.right,k,list);
         }
+    }
+
+    /**
+     * 非递归写法
+     * @param root
+     * @param k
+     * @return
+     */
+    public int kthSmallest2(TreeNode root, int k) {
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        int sum = 0;
+        while(!stack.isEmpty()){
+            // 左到头
+            TreeNode peek = stack.peek();
+            while(peek.left != null){
+                stack.push(peek.left);
+                peek = peek.left;
+            }
+            // 访问
+            do{
+                peek = stack.pop();
+                sum++;
+                if(sum == k)
+                    return peek.val;
+            }while (!stack.isEmpty() && peek.right == null);
+            // 右入栈
+            if(peek.right != null)
+                stack.push(peek.right);
+        }
+        return 0;
     }
 
 }
