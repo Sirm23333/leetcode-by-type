@@ -18,7 +18,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/11-offer/11-offer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-recall/src/medium/GenerateParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-sort-search/13-sort-search.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-sort-search/src/medium/SortColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +154,7 @@
       <workItem from="1612701101977" duration="12409000" />
       <workItem from="1612767174329" duration="124000" />
       <workItem from="1612767352676" duration="3000" />
-      <workItem from="1612839536067" duration="7213000" />
+      <workItem from="1612839536067" duration="8693000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划：爬楼梯">
       <created>1611640799765</created>
@@ -448,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612847087088</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="回溯：括号生成(中等)">
+      <created>1612859083912</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1612859083912</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +488,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="其他：缺失数字" />
     <MESSAGE value="数组：多数元素" />
     <MESSAGE value="数组：三数之和(中等)" />
     <MESSAGE value="数组：矩阵置零(中等)" />
@@ -504,7 +512,8 @@
     <MESSAGE value="回溯：全排列(中等)" />
     <MESSAGE value="回溯：子集(中等)" />
     <MESSAGE value="回溯：单次搜索(中等)" />
-    <option name="LAST_COMMIT_MESSAGE" value="回溯：单次搜索(中等)" />
+    <MESSAGE value="回溯：括号生成(中等)" />
+    <option name="LAST_COMMIT_MESSAGE" value="回溯：括号生成(中等)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
@@ -515,10 +524,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1612766308088" />
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612847086979">
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612859083750">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612847086979" />
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612859083750" />
     <state x="219" y="94" width="1092" height="613" key="DiffContextDialog" timestamp="1612618544739">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
@@ -579,10 +588,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="339" y="286" width="678" height="225" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.34.1366.734@0.34.1366.734" timestamp="1611981950210" />
-    <state x="-14" y="38" width="1356" height="730" key="new project wizard" timestamp="1612841170833">
+    <state x="0" y="38" width="1356" height="730" key="new project wizard" timestamp="1612859348736">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="-14" y="38" width="1356" height="730" key="new project wizard/0.34.1366.734@0.34.1366.734" timestamp="1612841170833" />
+    <state x="0" y="38" width="1356" height="730" key="new project wizard/0.34.1366.734@0.34.1366.734" timestamp="1612859348736" />
     <state x="347" y="178" key="run.anything.popup" timestamp="1612154310457">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
