@@ -18,7 +18,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/11-offer/11-offer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-recall/src/medium/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-recall/src/medium/GenerateParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +152,7 @@
       <workItem from="1612701101977" duration="12409000" />
       <workItem from="1612767174329" duration="124000" />
       <workItem from="1612767352676" duration="3000" />
-      <workItem from="1612839536067" duration="5003000" />
+      <workItem from="1612839536067" duration="7213000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划：爬楼梯">
       <created>1611640799765</created>
@@ -434,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612845511947</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="回溯：子集(中等)">
+      <created>1612846327177</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1612846327177</updated>
+    </task>
+    <task id="LOCAL-00042" summary="回溯：单次搜索(中等)">
+      <created>1612847087088</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1612847087088</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,8 +479,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="其他：杨辉三角形" />
-    <MESSAGE value="其他：有效的括号" />
     <MESSAGE value="其他：缺失数字" />
     <MESSAGE value="数组：多数元素" />
     <MESSAGE value="数组：三数之和(中等)" />
@@ -490,7 +502,9 @@
     <MESSAGE value="图：岛屿数量(中等)" />
     <MESSAGE value="回溯：电话号码的字母组合(中等)" />
     <MESSAGE value="回溯：全排列(中等)" />
-    <option name="LAST_COMMIT_MESSAGE" value="回溯：全排列(中等)" />
+    <MESSAGE value="回溯：子集(中等)" />
+    <MESSAGE value="回溯：单次搜索(中等)" />
+    <option name="LAST_COMMIT_MESSAGE" value="回溯：单次搜索(中等)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
@@ -501,10 +515,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1612766308088" />
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612845511771">
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612847086979">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612845511771" />
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612847086979" />
     <state x="219" y="94" width="1092" height="613" key="DiffContextDialog" timestamp="1612618544739">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
