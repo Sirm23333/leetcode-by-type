@@ -17,8 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/easy/PrintNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/easy/ReplaceSpace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,7 @@
       <workItem from="1612701101977" duration="12409000" />
       <workItem from="1612767174329" duration="124000" />
       <workItem from="1612767352676" duration="3000" />
-      <workItem from="1612839536067" duration="10811000" />
+      <workItem from="1612839536067" duration="10952000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划：爬楼梯">
       <created>1611640799765</created>
@@ -489,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612862341101</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="剑指offer：打印从1到最大的n位数">
+      <created>1612862668295</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1612862668295</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +526,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组：最长回文子串,暴力法(中等)" />
     <MESSAGE value="数组：最长回文子串,中心扩散法(中等)" />
     <MESSAGE value="数组：最长回文子串,动态规划(中等)" />
     <MESSAGE value="数组：递增的三元子序列(中等)" />
@@ -545,7 +550,8 @@
     <MESSAGE value="剑指offer：二叉树的镜像" />
     <MESSAGE value="剑指offer：二叉树的深度" />
     <MESSAGE value="剑指offer：链表中倒数第k个节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：链表中倒数第k个节点" />
+    <MESSAGE value="剑指offer：打印从1到最大的n位数" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：打印从1到最大的n位数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
@@ -556,10 +562,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1612766308088" />
-    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612862340942">
+    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612862668206">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612862340942" />
+    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612862668206" />
     <state x="219" y="94" width="1092" height="613" key="DiffContextDialog" timestamp="1612618544739">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
