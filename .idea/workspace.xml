@@ -17,9 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11-offer/11-offer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/easy/ReverseLeftWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/easy/MirrorTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-offer/11-offer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/11-offer/11-offer.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,7 @@
       <workItem from="1612701101977" duration="12409000" />
       <workItem from="1612767174329" duration="124000" />
       <workItem from="1612767352676" duration="3000" />
-      <workItem from="1612839536067" duration="9249000" />
+      <workItem from="1612839536067" duration="9956000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划：爬楼梯">
       <created>1611640799765</created>
@@ -462,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612860591615</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="剑指offer：左旋转字符串">
+      <created>1612861128752</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1612861128752</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +500,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组：三数之和(中等)" />
     <MESSAGE value="数组：矩阵置零(中等)" />
     <MESSAGE value="数组：字母异位词分组(中等)" />
     <MESSAGE value="数组：无重复字符的最长子串(中等)" />
@@ -518,7 +524,8 @@
     <MESSAGE value="回溯：单次搜索(中等)" />
     <MESSAGE value="回溯：括号生成(中等)" />
     <MESSAGE value="排序：颜色分类(中等)" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序：颜色分类(中等)" />
+    <MESSAGE value="剑指offer：左旋转字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：左旋转字符串" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
@@ -529,10 +536,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1612766308088" />
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612860591475">
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612861128656">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612860591475" />
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612861128656" />
     <state x="219" y="94" width="1092" height="613" key="DiffContextDialog" timestamp="1612618544739">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
