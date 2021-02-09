@@ -17,7 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4-linked/src/medium/IntersectionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/11-offer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-graph/12-graph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-graph/src/medium/NumIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +50,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -60,8 +64,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.LongestPalindrome">
@@ -96,7 +100,7 @@
       <module name="9-design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,15 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,7 +150,11 @@
       <workItem from="1611981476550" duration="3523000" />
       <workItem from="1611906516873" duration="23000" />
       <workItem from="1611906561209" duration="13590000" />
-      <workItem from="1612420696057" duration="33581000" />
+      <workItem from="1612420696057" duration="40559000" />
+      <workItem from="1612701101977" duration="12409000" />
+      <workItem from="1612767174329" duration="124000" />
+      <workItem from="1612767352676" duration="3000" />
+      <workItem from="1612839536067" duration="962000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划：爬楼梯">
       <created>1611640799765</created>
@@ -346,7 +352,63 @@
       <option name="project" value="LOCAL" />
       <updated>1612669487185</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="数组：相交链表(中等)">
+      <created>1612672791539</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1612672791539</updated>
+    </task>
+    <task id="LOCAL-00030" summary="树：中序遍历(中等)">
+      <created>1612693667509</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1612693667509</updated>
+    </task>
+    <task id="LOCAL-00031" summary="树：二叉树的锯齿形层次遍历(中等)">
+      <created>1612694973010</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1612694973010</updated>
+    </task>
+    <task id="LOCAL-00032" summary="树：从前序与中序遍历序列构造二叉树，递归方法(中等)">
+      <created>1612751897187</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1612751897187</updated>
+    </task>
+    <task id="LOCAL-00033" summary="树：整整目录结果，增加Node类">
+      <created>1612752919759</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1612752919759</updated>
+    </task>
+    <task id="LOCAL-00034" summary="树：填充每个节点的下一个右侧节点指针(中等)">
+      <created>1612754671242</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1612754671242</updated>
+    </task>
+    <task id="LOCAL-00035" summary="树：二叉搜索树中第K小的元素,递归(中等)">
+      <created>1612756030828</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1612756030828</updated>
+    </task>
+    <task id="LOCAL-00036" summary="树：二叉搜索树中第K小的元素,非递归(中等)">
+      <created>1612756511736</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1612756511736</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,14 +439,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="动态规划：爬楼梯" />
-    <MESSAGE value="动态规划：买卖股票的最佳时机" />
-    <MESSAGE value="动态规划：最大子序和" />
-    <MESSAGE value="动态规划：打家劫舍" />
-    <MESSAGE value="数学：FizzBuzz" />
-    <MESSAGE value="数学：计数质数" />
-    <MESSAGE value="数学：3的幂" />
-    <MESSAGE value="设计：最小栈" />
     <MESSAGE value="设计：打乱数组" />
     <MESSAGE value="其他：汉明重量" />
     <MESSAGE value="其他：颠倒二进制位" />
@@ -402,21 +456,29 @@
     <MESSAGE value="数组：递增的三元子序列(中等)" />
     <MESSAGE value="数组：两数相加(中等)" />
     <MESSAGE value="数组：奇偶链表(中等)" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组：奇偶链表(中等)" />
+    <MESSAGE value="数组：相交链表(中等)" />
+    <MESSAGE value="树：中序遍历(中等)" />
+    <MESSAGE value="树：二叉树的锯齿形层次遍历(中等)" />
+    <MESSAGE value="树：从前序与中序遍历序列构造二叉树，递归方法(中等)" />
+    <MESSAGE value="树：整整目录结果，增加Node类" />
+    <MESSAGE value="树：填充每个节点的下一个右侧节点指针(中等)" />
+    <MESSAGE value="树：二叉搜索树中第K小的元素,递归(中等)" />
+    <MESSAGE value="树：二叉搜索树中第K小的元素,非递归(中等)" />
+    <option name="LAST_COMMIT_MESSAGE" value="树：二叉搜索树中第K小的元素,非递归(中等)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612072803128">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure/0.34.1366.734@0.34.1366.734" timestamp="1612072803128" />
-    <state x="278" y="62" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611981822059">
+    <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612766308088">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="278" y="62" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1611981822059" />
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612669487054">
+    <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1612766308088" />
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612756511617">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612669487054" />
+    <state x="175" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612756511617" />
     <state x="219" y="94" width="1092" height="613" key="DiffContextDialog" timestamp="1612618544739">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
@@ -425,38 +487,38 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.34.1366.734@0.34.1366.734" timestamp="1612323579084" />
-    <state width="1312" height="301" key="GridCell.Tab.0.bottom" timestamp="1612613497272">
+    <state width="1312" height="151" key="GridCell.Tab.0.bottom" timestamp="1612701051921">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="301" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612613497272" />
-    <state width="1312" height="301" key="GridCell.Tab.0.center" timestamp="1612613497271">
+    <state width="1312" height="151" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612701051921" />
+    <state width="1312" height="151" key="GridCell.Tab.0.center" timestamp="1612701051920">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="301" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1612613497271" />
-    <state width="1312" height="301" key="GridCell.Tab.0.left" timestamp="1612613497270">
+    <state width="1312" height="151" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1612701051920" />
+    <state width="1312" height="151" key="GridCell.Tab.0.left" timestamp="1612701051920">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="301" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1612613497270" />
-    <state width="1312" height="301" key="GridCell.Tab.0.right" timestamp="1612613497271">
+    <state width="1312" height="151" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1612701051920" />
+    <state width="1312" height="151" key="GridCell.Tab.0.right" timestamp="1612701051921">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="301" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1612613497271" />
-    <state width="1312" height="301" key="GridCell.Tab.1.bottom" timestamp="1612613497589">
+    <state width="1312" height="151" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1612701051921" />
+    <state width="1312" height="50" key="GridCell.Tab.1.bottom" timestamp="1612701051915">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="301" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612613497589" />
-    <state width="1312" height="301" key="GridCell.Tab.1.center" timestamp="1612613497582">
+    <state width="1312" height="50" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612701051915" />
+    <state width="1312" height="50" key="GridCell.Tab.1.center" timestamp="1612701051914">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="301" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1612613497582" />
-    <state width="1312" height="301" key="GridCell.Tab.1.left" timestamp="1612613497582">
+    <state width="1312" height="50" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1612701051914" />
+    <state width="1312" height="50" key="GridCell.Tab.1.left" timestamp="1612701051914">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="301" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1612613497582" />
-    <state width="1312" height="301" key="GridCell.Tab.1.right" timestamp="1612613497584">
+    <state width="1312" height="50" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1612701051914" />
+    <state width="1312" height="50" key="GridCell.Tab.1.right" timestamp="1612701051915">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1312" height="301" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1612613497584" />
+    <state width="1312" height="50" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1612701051915" />
     <state x="266" y="135" width="814" height="528" key="IDE.errors.dialog" timestamp="1612014493548">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
@@ -465,22 +527,22 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="379" y="34" width="597" height="730" key="RollbackChangesDialog/0.34.1366.734@0.34.1366.734" timestamp="1612493266177" />
-    <state x="164" y="36" key="SettingsEditor" timestamp="1611906539450">
+    <state x="164" y="34" width="1024" height="730" key="SettingsEditor" timestamp="1612767247323">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="164" y="36" key="SettingsEditor/0.34.1366.734@0.34.1366.734" timestamp="1611906539450" />
-    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1612615380298">
+    <state x="164" y="34" width="1024" height="730" key="SettingsEditor/0.34.1366.734@0.34.1366.734" timestamp="1612767247323" />
+    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1612757973265">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1612615380298" />
+    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1612757973265" />
     <state x="339" y="286" width="678" height="225" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611981950210">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="339" y="286" width="678" height="225" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.34.1366.734@0.34.1366.734" timestamp="1611981950210" />
-    <state x="0" y="34" width="1356" height="730" key="new project wizard" timestamp="1612152441838">
+    <state x="10" y="38" width="1356" height="730" key="new project wizard" timestamp="1612839649380">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="0" y="34" width="1356" height="730" key="new project wizard/0.34.1366.734@0.34.1366.734" timestamp="1612152441838" />
+    <state x="10" y="38" width="1356" height="730" key="new project wizard/0.34.1366.734@0.34.1366.734" timestamp="1612839649380" />
     <state x="347" y="178" key="run.anything.popup" timestamp="1612154310457">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
