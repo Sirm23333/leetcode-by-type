@@ -16,8 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/easy/FindContinuousSequence.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="剑指offer：和为s的连续正数序列">
+      <change afterPath="$PROJECT_DIR$/11-offer/src/easy/LowestCommonAncestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,14 +151,7 @@
       <workItem from="1612701101977" duration="12409000" />
       <workItem from="1612767174329" duration="124000" />
       <workItem from="1612767352676" duration="3000" />
-      <workItem from="1612839536067" duration="17859000" />
-    </task>
-    <task id="LOCAL-00006" summary="数学：FizzBuzz">
-      <created>1612011428811</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1612011428811</updated>
+      <workItem from="1612839536067" duration="19799000" />
     </task>
     <task id="LOCAL-00007" summary="数学：计数质数">
       <created>1612013946207</created>
@@ -496,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612948761761</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="剑指offer：和为s的连续正数序列">
+      <created>1612949296789</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1612949296789</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +527,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组：相交链表(中等)" />
     <MESSAGE value="树：中序遍历(中等)" />
     <MESSAGE value="树：二叉树的锯齿形层次遍历(中等)" />
     <MESSAGE value="树：从前序与中序遍历序列构造二叉树，递归方法(中等)" />
@@ -552,7 +551,8 @@
     <MESSAGE value="剑指offer：二叉搜索树的第k大节点" />
     <MESSAGE value="剑指offer：反转链表" />
     <MESSAGE value="剑指offer：用两个栈实现队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：用两个栈实现队列" />
+    <MESSAGE value="剑指offer：和为s的连续正数序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：和为s的连续正数序列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612948389366">
@@ -563,10 +563,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1612766308088" />
-    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612948761624">
+    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612949673016">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612948761624" />
+    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612949673016" />
     <state x="219" y="94" width="1092" height="613" key="DiffContextDialog" timestamp="1612618544739">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
