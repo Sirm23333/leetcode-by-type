@@ -17,7 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/easy/Exchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/easy/LastRemaining.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,14 +151,7 @@
       <workItem from="1612701101977" duration="12409000" />
       <workItem from="1612767174329" duration="124000" />
       <workItem from="1612767352676" duration="3000" />
-      <workItem from="1612839536067" duration="22788000" />
-    </task>
-    <task id="LOCAL-00010" summary="设计：打乱数组">
-      <created>1612074670655</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1612074670655</updated>
+      <workItem from="1612839536067" duration="25418000" />
     </task>
     <task id="LOCAL-00011" summary="其他：汉明距离">
       <created>1612154487665</created>
@@ -496,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612952608059</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="剑指offer：调整数组顺序使奇数位于偶数前面">
+      <created>1612954206805</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1612954206805</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +527,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="树：整整目录结果，增加Node类" />
     <MESSAGE value="树：填充每个节点的下一个右侧节点指针(中等)" />
     <MESSAGE value="树：二叉搜索树中第K小的元素,递归(中等)" />
     <MESSAGE value="树：二叉搜索树中第K小的元素,非递归(中等)" />
@@ -552,7 +551,8 @@
     <MESSAGE value="剑指offer：二叉树的最近公共祖先" />
     <MESSAGE value="剑指offer：二叉搜索树的最近公共祖先" />
     <MESSAGE value="剑指offer：数组中出现次数超过一半的数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：数组中出现次数超过一半的数字" />
+    <MESSAGE value="剑指offer：调整数组顺序使奇数位于偶数前面" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：调整数组顺序使奇数位于偶数前面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612948389366">
@@ -563,10 +563,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1612766308088" />
-    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612952607934">
+    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1612954206705">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612952607934" />
+    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1612954206705" />
     <state x="219" y="94" width="1092" height="613" key="DiffContextDialog" timestamp="1612618544739">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
