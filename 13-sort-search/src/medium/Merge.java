@@ -45,7 +45,8 @@ public class Merge {
      */
     public int[][] merge2(int[][] intervals) {
         List<int[]> rssList = new ArrayList<>();
-        Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
+//        Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
+        quickSort(intervals,0,intervals.length-1);
         int left = intervals[0][0],right = intervals[0][1];
         int i = 1;
         while(i < intervals.length){
@@ -65,4 +66,29 @@ public class Merge {
         }
         return rss;
     }
+
+    /**
+     * 手写快排
+     * @param intervals
+     * @param left
+     * @param right
+     */
+    public void quickSort(int[][] intervals , int left , int right){
+        if(left >= right)
+            return;
+        int[] target = intervals[left];
+        int i = left  , j = right;
+        while(i < j){
+            while(i < j && intervals[j][0] >= target[0]) j--;
+            if(i < j)
+                intervals[i] = intervals[j];
+            while(i < j && intervals[i][0] <= target[0]) i++;
+            if(i < j)
+                intervals[j] = intervals[i];
+        }
+        intervals[i] = target;
+        quickSort(intervals , left , i - 1);
+        quickSort(intervals , i + 1 , right);
+    }
+
 }
