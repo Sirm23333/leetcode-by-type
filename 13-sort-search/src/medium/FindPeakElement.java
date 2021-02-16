@@ -19,16 +19,14 @@ public class FindPeakElement {
         int len = nums.length;
         if(len == 1)
             return 0;
-        int first, second = Integer.MIN_VALUE , third = nums[0];
-        for(int i = 1; i < len; i++){
-            first = second;
-            second = third;
-            third = nums[i];
+        int first, second, third ;
+        for(int i = 0; i < len; i++){
+            first = i == 0 ? Integer.MIN_VALUE : nums[i-1];
+            second = nums[i];
+            third = i == len - 1 ? Integer.MIN_VALUE : nums[i+1];
             if(first < second && second > third)
-                return i-1;
+                return i;
         }
-        if(second < third)
-            return len - 1;
         return -1;
     }
 
