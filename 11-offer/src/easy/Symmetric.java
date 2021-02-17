@@ -43,4 +43,23 @@ public class Symmetric {
         }
         return true;
     }
+    public boolean isSymmetric2(TreeNode root){
+        if(root == null)
+            return true;
+        if((root.left != null && root.right != null) || (root.left == null && root.right == null))
+            return isSymmetric(root.left,root.right);
+        return false;
+    }
+    public boolean isSymmetric(TreeNode node1 , TreeNode node2){
+        if(node1 == null && node2 == null)
+            return true;
+        if(node1.val != node2.val)
+            return false;
+        if((node1.left != null && node2.right == null) || (node1.left == null && node2.right != null))
+            return false;
+        if((node1.right != null && node2.left == null) || (node1.right == null && node2.left != null))
+            return false;
+        return isSymmetric(node1.left , node2.right) && isSymmetric(node1.right , node2.left);
+    }
+
 }
