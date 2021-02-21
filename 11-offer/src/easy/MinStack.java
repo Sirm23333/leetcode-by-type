@@ -13,15 +13,13 @@ public class MinStack {
 
     public void push(int x) {
         stack.push(x);
-        if(min.isEmpty())
+        if(min.isEmpty() || x <= min.peek())
             min.push(x);
-        else
-            min.push(Math.min(x,min.peek()));
     }
 
     public void pop() {
-        stack.pop();
-        min.pop();
+        if(stack.pop().equals(min.peek()))
+            min.pop();
     }
 
     public int top() {

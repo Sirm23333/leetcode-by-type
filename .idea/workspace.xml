@@ -16,9 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/easy/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="剑指offer：包含 min 函数的栈">
+      <change beforePath="$PROJECT_DIR$/11-offer/src/easy/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-offer/src/easy/MinStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +153,7 @@
       <workItem from="1612839536067" duration="37276000" />
       <workItem from="1613384907535" duration="17760000" />
       <workItem from="1613795946334" duration="610000" />
-      <workItem from="1613883945789" duration="81000" />
-    </task>
-    <task id="LOCAL-00024" summary="数组：最长回文子串,中心扩散法(中等)">
-      <created>1612590168276</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1612590168276</updated>
+      <workItem from="1613883945789" duration="419000" />
     </task>
     <task id="LOCAL-00025" summary="数组：最长回文子串,动态规划(中等)">
       <created>1612613705676</created>
@@ -499,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613452370948</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="剑指offer：包含 min 函数的栈">
+      <created>1613884256138</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1613884256138</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +529,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指offer：二叉树的深度" />
     <MESSAGE value="剑指offer：链表中倒数第k个节点" />
     <MESSAGE value="剑指offer：打印从1到最大的n位数" />
     <MESSAGE value="剑指offer：替换空格" />
@@ -555,7 +553,8 @@
     <MESSAGE value="排序与搜索：搜索旋转排序数组" />
     <MESSAGE value="搜索：搜索二维矩阵II" />
     <MESSAGE value="剑指offer：删除链表的节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：删除链表的节点" />
+    <MESSAGE value="剑指offer：包含 min 函数的栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：包含 min 函数的栈" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612948389366">
