@@ -16,9 +16,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="剑指offer：包含 min 函数的栈（第二种方法）">
-      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CanJump.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="动态规划：跳跃游戏">
+      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/UniquePaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CanJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CanJump.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +155,7 @@
       <workItem from="1612839536067" duration="37276000" />
       <workItem from="1613384907535" duration="17760000" />
       <workItem from="1613795946334" duration="610000" />
-      <workItem from="1613883945789" duration="3636000" />
-    </task>
-    <task id="LOCAL-00026" summary="数组：递增的三元子序列(中等)">
-      <created>1612616699036</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1612616699036</updated>
+      <workItem from="1613883945789" duration="5736000" />
     </task>
     <task id="LOCAL-00027" summary="数组：两数相加(中等)">
       <created>1612618550536</created>
@@ -499,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613884410996</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="动态规划：跳跃游戏">
+      <created>1614063554009</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1614063554009</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +531,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指offer：打印从1到最大的n位数" />
     <MESSAGE value="剑指offer：替换空格" />
     <MESSAGE value="剑指offer：从尾到头打印链表" />
     <MESSAGE value="剑指offer：二叉搜索树的第k大节点" />
@@ -555,7 +555,8 @@
     <MESSAGE value="剑指offer：删除链表的节点" />
     <MESSAGE value="剑指offer：包含 min 函数的栈" />
     <MESSAGE value="剑指offer：包含 min 函数的栈（第二种方法）" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：包含 min 函数的栈（第二种方法）" />
+    <MESSAGE value="动态规划：跳跃游戏" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划：跳跃游戏" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612948389366">

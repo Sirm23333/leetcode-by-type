@@ -38,4 +38,17 @@ public class CanJump {
         }
         return false;
     }
+    public boolean canJump3(int[] nums) {
+        int len = nums.length;
+        boolean[] flag = new boolean[len];
+        flag[0] = true;
+        for(int i = 0; i < len; i++){
+            if(flag[i]){
+                for(int j = i + 1 ; j <= i + nums[i] && j < len; j++){
+                    flag[j] = true;
+                }
+            }
+        }
+        return flag[len - 1];
+    }
 }
