@@ -16,7 +16,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/LengthOfLIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LongestPalindrome" />
@@ -139,13 +153,6 @@
       <workItem from="1612767352676" duration="3000" />
       <workItem from="1612839536067" duration="37276000" />
       <workItem from="1613384907535" duration="20652000" />
-    </task>
-    <task id="LOCAL-00026" summary="数组：递增的三元子序列(中等)">
-      <created>1612616699036</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1612616699036</updated>
     </task>
     <task id="LOCAL-00027" summary="数组：两数相加(中等)">
       <created>1612618550536</created>
@@ -483,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613531934050</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="meger">
+      <created>1614174105699</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1614174105700</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +528,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指offer：打印从1到最大的n位数" />
     <MESSAGE value="剑指offer：替换空格" />
     <MESSAGE value="剑指offer：从尾到头打印链表" />
     <MESSAGE value="剑指offer：二叉搜索树的第k大节点" />
@@ -539,7 +552,8 @@
     <MESSAGE value="剑指offer：删除链表的节点" />
     <MESSAGE value="剑指offer：平衡二叉树" />
     <MESSAGE value="剑指offer：对称的二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：对称的二叉树" />
+    <MESSAGE value="meger" />
+    <option name="LAST_COMMIT_MESSAGE" value="meger" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612948389366">
@@ -550,10 +564,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1612766308088" />
-    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1614173738434">
+    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1614174105489">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1614173738434" />
+    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1614174105489" />
     <state x="100" y="134" width="1166" height="534" key="DiffContextDialog" timestamp="1614173737057">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
@@ -606,10 +620,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="164" y="34" width="1024" height="730" key="SettingsEditor/0.34.1366.734@0.34.1366.734" timestamp="1612767247323" />
-    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1613452968349">
+    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1614173924819">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1613452968349" />
+    <state x="278" y="135" width="800" height="527" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1614173924819" />
     <state x="339" y="286" width="678" height="225" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611981950210">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
