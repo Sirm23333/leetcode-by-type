@@ -17,9 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="动态规划：跳跃游戏">
-      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/UniquePaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CanJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CanJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-dynamic-programming/src/medium/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/UniquePaths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,17 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LongestPalindrome" />
@@ -156,6 +144,7 @@
       <workItem from="1613384907535" duration="17760000" />
       <workItem from="1613795946334" duration="610000" />
       <workItem from="1613883945789" duration="5736000" />
+      <workItem from="1614142294782" duration="952000" />
     </task>
     <task id="LOCAL-00027" summary="数组：两数相加(中等)">
       <created>1612618550536</created>
