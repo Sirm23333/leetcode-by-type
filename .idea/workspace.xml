@@ -16,11 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/easy/MaxSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-offer/src/easy/Symmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-offer/src/easy/Symmetric.java" afterDir="false" />
-    </list>
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,19 +98,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -567,14 +550,14 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1612766308088" />
-    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1613531933940">
+    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1614173738434">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1613531933940" />
-    <state x="219" y="94" width="1092" height="613" key="DiffContextDialog" timestamp="1612618544739">
+    <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1614173738434" />
+    <state x="100" y="134" width="1166" height="534" key="DiffContextDialog" timestamp="1614173737057">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="219" y="94" width="1092" height="613" key="DiffContextDialog/0.34.1366.734@0.34.1366.734" timestamp="1612618544739" />
+    <state x="100" y="134" width="1166" height="534" key="DiffContextDialog/0.34.1366.734@0.34.1366.734" timestamp="1614173737057" />
     <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1613447785239">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
