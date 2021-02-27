@@ -16,8 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="动态规划：跳跃游戏">
-      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/LengthOfLIS.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="动态规划：最长上升子序列">
+      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CoinChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunManager" selected="Application.CoinChange">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -118,15 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,21 +169,8 @@
       <workItem from="1613384907535" duration="17760000" />
       <workItem from="1613795946334" duration="610000" />
       <workItem from="1613883945789" duration="5736000" />
-      <workItem from="1614142294782" duration="8039000" />
-    </task>
-    <task id="LOCAL-00028" summary="数组：奇偶链表(中等)">
-      <created>1612669487185</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1612669487185</updated>
-    </task>
-    <task id="LOCAL-00029" summary="数组：相交链表(中等)">
-      <created>1612672791539</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1612672791539</updated>
+      <workItem from="1614142294782" duration="8250000" />
+      <workItem from="1614408731923" duration="2023000" />
     </task>
     <task id="LOCAL-00030" summary="树：中序遍历(中等)">
       <created>1612693667509</created>
@@ -516,7 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614143265303</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="树：对称二叉树">
+      <created>1614215488159</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1614215488159</updated>
+    </task>
+    <task id="LOCAL-00078" summary="动态规划：最长上升子序列">
+      <created>1614215509581</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1614215509581</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,8 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指offer：替换空格" />
-    <MESSAGE value="剑指offer：从尾到头打印链表" />
     <MESSAGE value="剑指offer：二叉搜索树的第k大节点" />
     <MESSAGE value="剑指offer：反转链表" />
     <MESSAGE value="剑指offer：用两个栈实现队列" />
@@ -572,7 +569,9 @@
     <MESSAGE value="剑指offer：包含 min 函数的栈" />
     <MESSAGE value="剑指offer：包含 min 函数的栈（第二种方法）" />
     <MESSAGE value="动态规划：跳跃游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划：跳跃游戏" />
+    <MESSAGE value="树：对称二叉树" />
+    <MESSAGE value="动态规划：最长上升子序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划：最长上升子序列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612948389366">
@@ -591,53 +590,54 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2/0.34.1366.734@0.34.1366.734" timestamp="1613452370810" />
-    <state x="219" y="94" width="1092" height="613" key="DiffContextDialog" timestamp="1612618544739">
-      <screen x="0" y="34" width="1366" height="734" />
+    <state x="308" y="85" width="1535" height="869" key="DiffContextDialog" timestamp="1614408921372">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="308" y="85" width="1535" height="869" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614408921372" />
     <state x="219" y="94" width="1092" height="613" key="DiffContextDialog/0.34.1366.734@0.34.1366.734" timestamp="1612618544739" />
     <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1613447785239">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="498" y="298" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.34.1366.734@0.34.1366.734" timestamp="1613447785239" />
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom" timestamp="1614144375296">
+    <state width="1877" height="164" key="GridCell.Tab.0.bottom" timestamp="1614215512451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614144375296" />
+    <state width="1877" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614215512451" />
     <state width="1312" height="151" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612701051921" />
-    <state width="1877" height="257" key="GridCell.Tab.0.center" timestamp="1614144375296">
+    <state width="1877" height="164" key="GridCell.Tab.0.center" timestamp="1614215512451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614144375296" />
+    <state width="1877" height="164" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614215512451" />
     <state width="1312" height="151" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1612701051920" />
-    <state width="1877" height="257" key="GridCell.Tab.0.left" timestamp="1614144375296">
+    <state width="1877" height="164" key="GridCell.Tab.0.left" timestamp="1614215512451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614144375296" />
+    <state width="1877" height="164" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614215512451" />
     <state width="1312" height="151" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1612701051920" />
-    <state width="1877" height="257" key="GridCell.Tab.0.right" timestamp="1614144375296">
+    <state width="1877" height="164" key="GridCell.Tab.0.right" timestamp="1614215512451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614144375296" />
+    <state width="1877" height="164" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614215512451" />
     <state width="1312" height="151" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1612701051921" />
-    <state width="1877" height="257" key="GridCell.Tab.1.bottom" timestamp="1614144375396">
+    <state width="1877" height="164" key="GridCell.Tab.1.bottom" timestamp="1614215512452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614144375396" />
+    <state width="1877" height="164" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614215512452" />
     <state width="1312" height="50" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1612701051915" />
-    <state width="1877" height="257" key="GridCell.Tab.1.center" timestamp="1614144375395">
+    <state width="1877" height="164" key="GridCell.Tab.1.center" timestamp="1614215512451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614144375395" />
+    <state width="1877" height="164" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614215512451" />
     <state width="1312" height="50" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1612701051914" />
-    <state width="1877" height="257" key="GridCell.Tab.1.left" timestamp="1614144375395">
+    <state width="1877" height="164" key="GridCell.Tab.1.left" timestamp="1614215512451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614144375395" />
+    <state width="1877" height="164" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614215512451" />
     <state width="1312" height="50" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1612701051914" />
-    <state width="1877" height="257" key="GridCell.Tab.1.right" timestamp="1614144375396">
+    <state width="1877" height="164" key="GridCell.Tab.1.right" timestamp="1614215512451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614144375396" />
+    <state width="1877" height="164" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614215512451" />
     <state width="1312" height="50" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1612701051915" />
     <state x="266" y="135" width="814" height="528" key="IDE.errors.dialog" timestamp="1612014493548">
       <screen x="0" y="34" width="1366" height="734" />
@@ -647,10 +647,15 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="379" y="34" width="597" height="730" key="RollbackChangesDialog/0.34.1366.734@0.34.1366.734" timestamp="1612493266177" />
-    <state x="164" y="34" width="1024" height="730" key="SettingsEditor" timestamp="1612767247323">
-      <screen x="0" y="34" width="1366" height="734" />
+    <state x="231" y="0" width="1024" height="730" key="SettingsEditor" timestamp="1614408936580">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="231" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614408936580" />
     <state x="164" y="34" width="1024" height="730" key="SettingsEditor/0.34.1366.734@0.34.1366.734" timestamp="1612767247323" />
+    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1614408921372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614408921372" />
     <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1614147443939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
