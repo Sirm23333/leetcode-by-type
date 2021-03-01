@@ -16,9 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="动态规划：最长上升子序列">
-      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CoinChange.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="动态规划：零钱兑换，超时">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CoinChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,14 +170,7 @@
       <workItem from="1613795946334" duration="610000" />
       <workItem from="1613883945789" duration="5736000" />
       <workItem from="1614142294782" duration="8250000" />
-      <workItem from="1614408731923" duration="2023000" />
-    </task>
-    <task id="LOCAL-00030" summary="树：中序遍历(中等)">
-      <created>1612693667509</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1612693667509</updated>
+      <workItem from="1614408731923" duration="5539000" />
     </task>
     <task id="LOCAL-00031" summary="树：二叉树的锯齿形层次遍历(中等)">
       <created>1612694973010</created>
@@ -515,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614215509581</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="动态规划：零钱兑换，超时">
+      <created>1614411142389</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1614411142390</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指offer：二叉搜索树的第k大节点" />
     <MESSAGE value="剑指offer：反转链表" />
     <MESSAGE value="剑指offer：用两个栈实现队列" />
     <MESSAGE value="剑指offer：和为s的连续正数序列" />
@@ -571,7 +570,8 @@
     <MESSAGE value="动态规划：跳跃游戏" />
     <MESSAGE value="树：对称二叉树" />
     <MESSAGE value="动态规划：最长上升子序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划：最长上升子序列" />
+    <MESSAGE value="动态规划：零钱兑换，超时" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划：零钱兑换，超时" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612948389366">
@@ -582,10 +582,10 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="278" y="62" width="957" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1612766308088" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1614143497829">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1614562240049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614143497829" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614562240049" />
     <state x="137" y="38" width="1191" height="730" key="CommitChangelistDialog2" timestamp="1613452370810">
       <screen x="0" y="34" width="1366" height="734" />
     </state>

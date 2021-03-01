@@ -1,5 +1,7 @@
 package medium;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.List;
 import java.util.Stack;
 
@@ -73,4 +75,49 @@ public class CoinChange {
         quickSort(arr,i+1,end);
     }
 
+    /**
+     * bfs 超时
+     * @param coins
+     * @param amount
+     * @return
+     */
+    public int coinChange2(int[] coins, int amount) {
+        if(amount == 0)
+            return 0;
+        quickSort(coins,0,coins.length-1);
+        Deque<Node> deque = new ArrayDeque<>();
+        for(int coin : coins){
+            if(coin == amount)
+                return 1;
+            else if(coin > amount)
+                continue;
+            deque.offerLast(new Node(coin,coin,1));
+            while(!deque.isEmpty()){
+                int size = deque.size();
+                for(int i = 0;  i < size; i++){
+                    Node peekNode = deque.pollFirst();
+                    for(int coin2 : coins){
+                        if(coin2 <= peekNode.coin && peekNode.sum + coin2 <= amount){
+                            if(peekNode.sum + coin2 == amount)
+                                return peekNode.level + 1;
+                            deque.offerLast(new Node(coin2,peekNode.sum + coin2 , peekNode.level + 1));
+                        }
+                    }
+                }
+            }
+        }
+        return -1;
+    }
+
+    class Node{
+        int coin;
+        int sum;
+        int level;
+
+        public Node(int coin, int sum, int level) {
+            this.coin = coin;
+            this.sum = sum;
+            this.level = level;
+        }
+    }
 }
