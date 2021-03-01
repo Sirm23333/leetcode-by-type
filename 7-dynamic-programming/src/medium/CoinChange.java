@@ -1,9 +1,6 @@
 package medium;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * 零钱兑换
@@ -120,4 +117,23 @@ public class CoinChange {
             this.level = level;
         }
     }
+    private static Map<Integer,Integer> map = new HashMap<>();
+    public int coinChange3(int[] coins, int amount) {
+        if(amount == 0)
+            return 0;
+        if (amount < 0)
+            return -1;
+        if(map.containsKey(amount))
+            return map.get(amount);
+        int min = Integer.MAX_VALUE;
+        for(int coin : coins){
+            int sum = coinChange3(coins, amount - coin);
+            if(sum > -1){
+                min = Integer.min(min,sum);
+            }
+        }
+        map.put(amount , min == Integer.MAX_VALUE ? -1 : min+1);
+        return min == Integer.MAX_VALUE ? -1 : min + 1;
+    }
+
 }
