@@ -145,8 +145,29 @@ public class CoinChange {
         map.put(amount , min == Integer.MAX_VALUE ? -1 : min+1);
         return min == Integer.MAX_VALUE ? -1 : min + 1;
     }
-    public static void main(String[] args) {
-        System.out.println(coinChange3(new int[]{2},3));
+
+    /**
+     * 动态规划
+     * @param coins
+     * @param amount
+     * @return
+     */
+    public int coinChange4(int[] coins,int amount){
+        int[] dp = new int[amount+1];
+        dp[0] = 0;
+        for(int i = 1; i < amount + 1; i++){
+            int sum = Integer.MAX_VALUE;
+            for(int coin : coins){
+                if(i - coin >= 0 && dp[i-coin] > -1){
+                    sum = Math.min(sum,dp[i-coin]);
+                }
+            }
+            if(sum == Integer.MAX_VALUE)
+                dp[i] = -1;
+            else
+                dp[i] = sum + 1;
+        }
+        return dp[amount];
     }
 
 }
