@@ -117,8 +117,18 @@ public class CoinChange {
             this.level = level;
         }
     }
-    private static Map<Integer,Integer> map = new HashMap<>();
-    public int coinChange3(int[] coins, int amount) {
+    public static int coinChange3(int[] coins, int amount) {
+        return conChange3_sub(coins,amount,new HashMap<>());
+    }
+
+    /**
+     * 递归方式
+     * @param coins
+     * @param amount
+     * @param map
+     * @return
+     */
+    public static int conChange3_sub(int[] coins , int amount, Map<Integer,Integer> map){
         if(amount == 0)
             return 0;
         if (amount < 0)
@@ -134,6 +144,9 @@ public class CoinChange {
         }
         map.put(amount , min == Integer.MAX_VALUE ? -1 : min+1);
         return min == Integer.MAX_VALUE ? -1 : min + 1;
+    }
+    public static void main(String[] args) {
+        System.out.println(coinChange3(new int[]{2},3));
     }
 
 }

@@ -16,7 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="动态规划：零钱兑换，bfs超时">
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="动态规划：动态规划">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/CoinChange.java" afterDir="false" />
     </list>
@@ -170,14 +170,7 @@
       <workItem from="1613795946334" duration="610000" />
       <workItem from="1613883945789" duration="5736000" />
       <workItem from="1614142294782" duration="8250000" />
-      <workItem from="1614408731923" duration="8036000" />
-    </task>
-    <task id="LOCAL-00032" summary="树：从前序与中序遍历序列构造二叉树，递归方法(中等)">
-      <created>1612751897187</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1612751897187</updated>
+      <workItem from="1614408731923" duration="9220000" />
     </task>
     <task id="LOCAL-00033" summary="树：整整目录结果，增加Node类">
       <created>1612752919759</created>
@@ -515,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614563123320</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="动态规划：动态规划">
+      <created>1614565909499</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1614565909499</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指offer：用两个栈实现队列" />
     <MESSAGE value="剑指offer：和为s的连续正数序列" />
     <MESSAGE value="剑指offer：二叉树的最近公共祖先" />
     <MESSAGE value="剑指offer：二叉搜索树的最近公共祖先" />
@@ -571,7 +570,8 @@
     <MESSAGE value="动态规划：最长上升子序列" />
     <MESSAGE value="动态规划：零钱兑换，超时" />
     <MESSAGE value="动态规划：零钱兑换，bfs超时" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划：零钱兑换，bfs超时" />
+    <MESSAGE value="动态规划：动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划：动态规划" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612948389366">
