@@ -16,8 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="数学：快乐数">
-      <change afterPath="$PROJECT_DIR$/2-array/src/easy/FindDisappearedNumbers.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="数组：找到所有数组中消失的数字">
+      <change afterPath="$PROJECT_DIR$/5-tree/src/easy/DiameterOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,14 +187,7 @@
       <workItem from="1613883945789" duration="5736000" />
       <workItem from="1614142294782" duration="8250000" />
       <workItem from="1614408731923" duration="27344000" />
-      <workItem from="1614857887612" duration="13188000" />
-    </task>
-    <task id="LOCAL-00040" summary="回溯：全排列(中等)">
-      <created>1612845511947</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1612845511947</updated>
+      <workItem from="1614857887612" duration="16456000" />
     </task>
     <task id="LOCAL-00041" summary="回溯：子集(中等)">
       <created>1612846327177</created>
@@ -532,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615177519625</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="数组：找到所有数组中消失的数字">
+      <created>1615186066059</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1615186066059</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +563,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指offer：圆圈中最后剩下的数字" />
     <MESSAGE value="剑指offer：两个链表的第一个公共节点" />
     <MESSAGE value="剑指offer：第一个只出现一次的字符" />
     <MESSAGE value="剑指offer：前 K 个高频元素" />
@@ -588,7 +587,8 @@
     <MESSAGE value="设计题：二叉树的序列化与反序列化" />
     <MESSAGE value="设计题：常数时间插入、删除和获取随机元素" />
     <MESSAGE value="数学：快乐数" />
-    <option name="LAST_COMMIT_MESSAGE" value="数学：快乐数" />
+    <MESSAGE value="数组：找到所有数组中消失的数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组：找到所有数组中消失的数字" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="34" width="1024" height="730" key="#Project_Structure" timestamp="1612948389366">
