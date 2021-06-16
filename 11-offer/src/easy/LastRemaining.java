@@ -10,21 +10,14 @@ import java.util.List;
  */
 public class LastRemaining {
     /**
-     * 超时
      * @param n
      * @param m
      * @return
      */
     public int lastRemaining(int n, int m) {
-        List<Integer> list = new LinkedList<>();
-        for(int i = 0; i < n; i++){
-            list.add(i);
+        if(n == 1){
+            return 0;
         }
-        int realM = 0;
-        while(list.size() > 1){
-            realM = (realM + m - 1) % list.size();
-            list.remove(realM);
-        }
-        return list.get(0);
+        return ( (m % n) + lastRemaining(n - 1, m) ) % n;
     }
 }
