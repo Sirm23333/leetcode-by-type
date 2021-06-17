@@ -16,8 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="Offer:剑指 Offer 56 - II. 数组中数字出现的次数 II">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/SingleNumbers.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="Offer:剑指 Offer 56 - I. 数组中数字出现的次数">
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/CopyRandomList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,20 @@
       <recent name="medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LastRemaining">
+  <component name="RunManager" selected="Application.CopyRandomList">
+    <configuration name="CopyRandomList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.CopyRandomList" />
+      <module name="11-offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LastRemaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.LastRemaining" />
       <module name="11-offer" />
@@ -91,19 +104,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ali.gaode.first.ThreadTest" />
-      <module name="14-written-examination" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ali.gaode.first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyRandomList" />
         <item itemvalue="Application.LastRemaining" />
         <item itemvalue="Application.RebuildTree" />
         <item itemvalue="Application.TrailingZeroes" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.ThreadTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -207,14 +207,7 @@
       <workItem from="1620533458716" duration="2835000" />
       <workItem from="1623031361661" duration="9350000" />
       <workItem from="1623218609537" duration="16252000" />
-      <workItem from="1623842047111" duration="9235000" />
-    </task>
-    <task id="LOCAL-00054" summary="剑指offer：用两个栈实现队列">
-      <created>1612948761761</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1612948761761</updated>
+      <workItem from="1623842047111" duration="12235000" />
     </task>
     <task id="LOCAL-00055" summary="剑指offer：和为s的连续正数序列">
       <created>1612949296789</created>
@@ -552,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623897576083</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Offer:剑指 Offer 56 - I. 数组中数字出现的次数">
+      <created>1623911514463</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1623911514463</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +583,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="动态规划：跳跃游戏" />
     <MESSAGE value="树：对称二叉树" />
     <MESSAGE value="动态规划：最长上升子序列" />
     <MESSAGE value="动态规划：零钱兑换，超时" />
@@ -608,7 +607,8 @@
     <MESSAGE value="Offer:剑指 Offer 11. 旋转数组的最小数字" />
     <MESSAGE value="Offer:剑指 Offer 62. 圆圈中最后剩下的数字" />
     <MESSAGE value="Offer:剑指 Offer 56 - II. 数组中数字出现的次数 II" />
-    <option name="LAST_COMMIT_MESSAGE" value="Offer:剑指 Offer 56 - II. 数组中数字出现的次数 II" />
+    <MESSAGE value="Offer:剑指 Offer 56 - I. 数组中数字出现的次数" />
+    <option name="LAST_COMMIT_MESSAGE" value="Offer:剑指 Offer 56 - I. 数组中数字出现的次数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1623722711552">
@@ -635,38 +635,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1877" height="318" key="GridCell.Tab.0.bottom" timestamp="1623843694763">
+    <state width="1877" height="190" key="GridCell.Tab.0.bottom" timestamp="1623913546727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623843694763" />
-    <state width="1877" height="318" key="GridCell.Tab.0.center" timestamp="1623843694762">
+    <state width="1877" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546727" />
+    <state width="1877" height="190" key="GridCell.Tab.0.center" timestamp="1623913546727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623843694762" />
-    <state width="1877" height="318" key="GridCell.Tab.0.left" timestamp="1623843694762">
+    <state width="1877" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546727" />
+    <state width="1877" height="190" key="GridCell.Tab.0.left" timestamp="1623913546727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623843694762" />
-    <state width="1877" height="318" key="GridCell.Tab.0.right" timestamp="1623843694763">
+    <state width="1877" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546727" />
+    <state width="1877" height="190" key="GridCell.Tab.0.right" timestamp="1623913546727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623843694763" />
-    <state width="1877" height="318" key="GridCell.Tab.1.bottom" timestamp="1623843694859">
+    <state width="1877" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546727" />
+    <state width="1877" height="190" key="GridCell.Tab.1.bottom" timestamp="1623913546830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623843694859" />
-    <state width="1877" height="318" key="GridCell.Tab.1.center" timestamp="1623843694859">
+    <state width="1877" height="190" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546830" />
+    <state width="1877" height="190" key="GridCell.Tab.1.center" timestamp="1623913546830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623843694859" />
-    <state width="1877" height="318" key="GridCell.Tab.1.left" timestamp="1623843694858">
+    <state width="1877" height="190" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546830" />
+    <state width="1877" height="190" key="GridCell.Tab.1.left" timestamp="1623913546830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623843694858" />
-    <state width="1877" height="318" key="GridCell.Tab.1.right" timestamp="1623843694859">
+    <state width="1877" height="190" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546830" />
+    <state width="1877" height="190" key="GridCell.Tab.1.right" timestamp="1623913546830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623843694859" />
+    <state width="1877" height="190" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546830" />
     <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1623725493350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -679,6 +679,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="319" y="91" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1617192322383" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1623912213292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623912213292" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
