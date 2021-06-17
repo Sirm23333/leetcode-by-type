@@ -16,8 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="Offer:剑指 Offer 56 - I. 数组中数字出现的次数">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/CopyRandomList.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="Offer:剑指 Offer 35. 复杂链表的复制">
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,14 +207,7 @@
       <workItem from="1620533458716" duration="2835000" />
       <workItem from="1623031361661" duration="9350000" />
       <workItem from="1623218609537" duration="16252000" />
-      <workItem from="1623842047111" duration="12235000" />
-    </task>
-    <task id="LOCAL-00055" summary="剑指offer：和为s的连续正数序列">
-      <created>1612949296789</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1612949296789</updated>
+      <workItem from="1623842047111" duration="14781000" />
     </task>
     <task id="LOCAL-00056" summary="剑指offer：二叉树的最近公共祖先">
       <created>1612951218480</created>
@@ -552,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623911514463</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Offer:剑指 Offer 35. 复杂链表的复制">
+      <created>1623915270925</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1623915270925</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +583,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="树：对称二叉树" />
     <MESSAGE value="动态规划：最长上升子序列" />
     <MESSAGE value="动态规划：零钱兑换，超时" />
     <MESSAGE value="动态规划：零钱兑换，bfs超时" />
@@ -608,7 +607,8 @@
     <MESSAGE value="Offer:剑指 Offer 62. 圆圈中最后剩下的数字" />
     <MESSAGE value="Offer:剑指 Offer 56 - II. 数组中数字出现的次数 II" />
     <MESSAGE value="Offer:剑指 Offer 56 - I. 数组中数字出现的次数" />
-    <option name="LAST_COMMIT_MESSAGE" value="Offer:剑指 Offer 56 - I. 数组中数字出现的次数" />
+    <MESSAGE value="Offer:剑指 Offer 35. 复杂链表的复制" />
+    <option name="LAST_COMMIT_MESSAGE" value="Offer:剑指 Offer 35. 复杂链表的复制" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1623722711552">
