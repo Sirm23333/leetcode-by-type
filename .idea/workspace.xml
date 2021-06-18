@@ -16,8 +16,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="Offer:剑指 Offer 35. 复杂链表的复制">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxValue.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="Offer:剑指 Offer 47. 礼物的最大价值">
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfitII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfitIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfitIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfitV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfitVI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-written-examination/src/vivo/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +77,7 @@
       <recent name="medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyRandomList">
+  <component name="RunManager" selected="Application.MaxProfit">
     <configuration name="CopyRandomList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.CopyRandomList" />
       <module name="11-offer" />
@@ -98,9 +104,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RebuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.RebuildTree" />
-      <module name="5-tree" />
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.MaxProfit" />
+      <module name="11-offer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="medium.*" />
@@ -111,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.ThreadTest" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vivo.Test1" />
       <module name="14-written-examination" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="vivo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrailingZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.TrailingZeroes" />
-      <module name="8-math" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vivo.Test2" />
+      <module name="14-written-examination" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="vivo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProfit" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.CopyRandomList" />
         <item itemvalue="Application.LastRemaining" />
-        <item itemvalue="Application.RebuildTree" />
-        <item itemvalue="Application.TrailingZeroes" />
-        <item itemvalue="Application.ThreadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,14 +213,9 @@
       <workItem from="1620533458716" duration="2835000" />
       <workItem from="1623031361661" duration="9350000" />
       <workItem from="1623218609537" duration="16252000" />
-      <workItem from="1623842047111" duration="14781000" />
-    </task>
-    <task id="LOCAL-00056" summary="剑指offer：二叉树的最近公共祖先">
-      <created>1612951218480</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1612951218480</updated>
+      <workItem from="1623842047111" duration="16703000" />
+      <workItem from="1623931750490" duration="3603000" />
+      <workItem from="1623985062546" duration="8422000" />
     </task>
     <task id="LOCAL-00057" summary="剑指offer：二叉搜索树的最近公共祖先">
       <created>1612952362041</created>
@@ -552,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623915270925</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Offer:剑指 Offer 47. 礼物的最大价值">
+      <created>1623917697549</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1623917697549</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +591,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="动态规划：最长上升子序列" />
     <MESSAGE value="动态规划：零钱兑换，超时" />
     <MESSAGE value="动态规划：零钱兑换，bfs超时" />
     <MESSAGE value="动态规划：零钱兑换(递归)" />
@@ -608,7 +615,8 @@
     <MESSAGE value="Offer:剑指 Offer 56 - II. 数组中数字出现的次数 II" />
     <MESSAGE value="Offer:剑指 Offer 56 - I. 数组中数字出现的次数" />
     <MESSAGE value="Offer:剑指 Offer 35. 复杂链表的复制" />
-    <option name="LAST_COMMIT_MESSAGE" value="Offer:剑指 Offer 35. 复杂链表的复制" />
+    <MESSAGE value="Offer:剑指 Offer 47. 礼物的最大价值" />
+    <option name="LAST_COMMIT_MESSAGE" value="Offer:剑指 Offer 47. 礼物的最大价值" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1623722711552">
@@ -623,10 +631,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623287300336" />
-    <state x="679" y="309" key="#xdebugger.evaluate" timestamp="1623229557669">
+    <state x="1286" y="139" key="#xdebugger.evaluate" timestamp="1623985131815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="679" y="309" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1623229557669" />
+    <state x="1286" y="139" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1623985131815" />
     <state x="308" y="85" width="1535" height="869" key="DiffContextDialog" timestamp="1617080859229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -635,38 +643,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1877" height="190" key="GridCell.Tab.0.bottom" timestamp="1623913546727">
+    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1624000879535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546727" />
-    <state width="1877" height="190" key="GridCell.Tab.0.center" timestamp="1623913546727">
+    <state width="1877" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624000879535" />
+    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1624000879535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546727" />
-    <state width="1877" height="190" key="GridCell.Tab.0.left" timestamp="1623913546727">
+    <state width="1877" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624000879535" />
+    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1624000879534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546727" />
-    <state width="1877" height="190" key="GridCell.Tab.0.right" timestamp="1623913546727">
+    <state width="1877" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624000879534" />
+    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1624000879535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546727" />
-    <state width="1877" height="190" key="GridCell.Tab.1.bottom" timestamp="1623913546830">
+    <state width="1877" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624000879535" />
+    <state width="1877" height="360" key="GridCell.Tab.1.bottom" timestamp="1623985197839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546830" />
-    <state width="1877" height="190" key="GridCell.Tab.1.center" timestamp="1623913546830">
+    <state width="1877" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623985197839" />
+    <state width="1877" height="360" key="GridCell.Tab.1.center" timestamp="1623985197839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546830" />
-    <state width="1877" height="190" key="GridCell.Tab.1.left" timestamp="1623913546830">
+    <state width="1877" height="360" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623985197839" />
+    <state width="1877" height="360" key="GridCell.Tab.1.left" timestamp="1623985197839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546830" />
-    <state width="1877" height="190" key="GridCell.Tab.1.right" timestamp="1623913546830">
+    <state width="1877" height="360" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623985197839" />
+    <state width="1877" height="360" key="GridCell.Tab.1.right" timestamp="1623985197839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623913546830" />
+    <state width="1877" height="360" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623985197839" />
     <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1623725493350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -679,10 +687,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="319" y="91" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1617192322383" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1623912213292">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1623997056187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623912213292" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623997056187" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
