@@ -16,14 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="Offer:剑指 Offer 47. 礼物的最大价值">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfitII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfitIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfitIV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfitV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxProfitVI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-written-examination/src/vivo/Test2.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="同花顺笔试">
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/LevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/TreeToDoublyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,26 +72,13 @@
       <recent name="medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxProfit">
-    <configuration name="CopyRandomList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.CopyRandomList" />
-      <module name="11-offer" />
+  <component name="RunManager" selected="Application.TreeToDoublyList">
+    <configuration name="LRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tonghuashun.LRU" />
+      <module name="14-written-examination" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LastRemaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.LastRemaining" />
-      <module name="11-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="tonghuashun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vivo.Test1" />
-      <module name="14-written-examination" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vivo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vivo.Test2" />
       <module name="14-written-examination" />
@@ -143,26 +112,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="TopK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tonghuashun.TopK" />
+      <module name="14-written-examination" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tonghuashun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeToDoublyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.TreeToDoublyList" />
+      <module name="11-offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeToDoublyList" />
+        <item itemvalue="Application.TopK" />
+        <item itemvalue="Application.LRU" />
         <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.CopyRandomList" />
-        <item itemvalue="Application.LastRemaining" />
       </list>
     </recent_temporary>
   </component>
@@ -215,21 +208,8 @@
       <workItem from="1623218609537" duration="16252000" />
       <workItem from="1623842047111" duration="16703000" />
       <workItem from="1623931750490" duration="3603000" />
-      <workItem from="1623985062546" duration="8422000" />
-    </task>
-    <task id="LOCAL-00057" summary="剑指offer：二叉搜索树的最近公共祖先">
-      <created>1612952362041</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1612952362041</updated>
-    </task>
-    <task id="LOCAL-00058" summary="剑指offer：数组中出现次数超过一半的数字">
-      <created>1612952608059</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1612952608059</updated>
+      <workItem from="1623985062546" duration="10183000" />
+      <workItem from="1624069990382" duration="5692000" />
     </task>
     <task id="LOCAL-00059" summary="剑指offer：调整数组顺序使奇数位于偶数前面">
       <created>1612954206805</created>
@@ -560,7 +540,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623917697549</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="动态规划：买卖股票">
+      <created>1624004757663</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1624004757663</updated>
+    </task>
+    <task id="LOCAL-00107" summary="同花顺笔试">
+      <created>1624076712918</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1624076712919</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,8 +585,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="动态规划：零钱兑换，超时" />
-    <MESSAGE value="动态规划：零钱兑换，bfs超时" />
     <MESSAGE value="动态规划：零钱兑换(递归)" />
     <MESSAGE value="动态规划：动态规划" />
     <MESSAGE value="动态规划：动态规划+二分查找" />
@@ -616,7 +608,9 @@
     <MESSAGE value="Offer:剑指 Offer 56 - I. 数组中数字出现的次数" />
     <MESSAGE value="Offer:剑指 Offer 35. 复杂链表的复制" />
     <MESSAGE value="Offer:剑指 Offer 47. 礼物的最大价值" />
-    <option name="LAST_COMMIT_MESSAGE" value="Offer:剑指 Offer 47. 礼物的最大价值" />
+    <MESSAGE value="动态规划：买卖股票" />
+    <MESSAGE value="同花顺笔试" />
+    <option name="LAST_COMMIT_MESSAGE" value="同花顺笔试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1623722711552">
@@ -643,38 +637,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1624000879535">
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom" timestamp="1624078357985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624000879535" />
-    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1624000879535">
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624078357985" />
+    <state width="1877" height="369" key="GridCell.Tab.0.center" timestamp="1624078357984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624000879535" />
-    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1624000879534">
+    <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624078357984" />
+    <state width="1877" height="369" key="GridCell.Tab.0.left" timestamp="1624078357984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624000879534" />
-    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1624000879535">
+    <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624078357984" />
+    <state width="1877" height="369" key="GridCell.Tab.0.right" timestamp="1624078357984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624000879535" />
-    <state width="1877" height="360" key="GridCell.Tab.1.bottom" timestamp="1623985197839">
+    <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624078357984" />
+    <state width="1877" height="369" key="GridCell.Tab.1.bottom" timestamp="1624078358098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623985197839" />
-    <state width="1877" height="360" key="GridCell.Tab.1.center" timestamp="1623985197839">
+    <state width="1877" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624078358098" />
+    <state width="1877" height="369" key="GridCell.Tab.1.center" timestamp="1624078358098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623985197839" />
-    <state width="1877" height="360" key="GridCell.Tab.1.left" timestamp="1623985197839">
+    <state width="1877" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624078358098" />
+    <state width="1877" height="369" key="GridCell.Tab.1.left" timestamp="1624078358098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623985197839" />
-    <state width="1877" height="360" key="GridCell.Tab.1.right" timestamp="1623985197839">
+    <state width="1877" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624078358098" />
+    <state width="1877" height="369" key="GridCell.Tab.1.right" timestamp="1624078358098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623985197839" />
+    <state width="1877" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624078358098" />
     <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1623725493350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -683,6 +677,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="798" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623031411392" />
+    <state x="661" y="252" width="598" height="536" key="find.popup" timestamp="1624074086703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="252" width="598" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624074086703" />
     <state x="319" y="91" width="1356" height="730" key="new project wizard" timestamp="1617192322383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
