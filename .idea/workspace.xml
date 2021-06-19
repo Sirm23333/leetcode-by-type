@@ -16,8 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="剑指 Offer 31. 栈的压入、弹出序列">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/ConstructArr.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="剑指 Offer 66. 构建乘积数组">
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/SpiralOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-string/src/medium/MaxLength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,13 +138,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,14 +211,8 @@
       <workItem from="1623842047111" duration="16703000" />
       <workItem from="1623931750490" duration="3603000" />
       <workItem from="1623985062546" duration="10183000" />
-      <workItem from="1624069990382" duration="7544000" />
-    </task>
-    <task id="LOCAL-00061" summary="剑指offer：两个链表的第一个公共节点">
-      <created>1612960635298</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1612960635298</updated>
+      <workItem from="1624069990382" duration="9178000" />
+      <workItem from="1624096995604" duration="1769000" />
     </task>
     <task id="LOCAL-00062" summary="剑指offer：第一个只出现一次的字符">
       <created>1613019961569</created>
@@ -553,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624080980591</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="剑指 Offer 66. 构建乘积数组">
+      <created>1624081688224</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1624081688224</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +588,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="动态规划：动态规划+二分查找" />
     <MESSAGE value="设计题：二叉树的序列化与反序列化" />
     <MESSAGE value="设计题：常数时间插入、删除和获取随机元素" />
     <MESSAGE value="数学：快乐数" />
@@ -609,7 +612,8 @@
     <MESSAGE value="同花顺笔试" />
     <MESSAGE value="树：层次遍历和中序遍历" />
     <MESSAGE value="剑指 Offer 31. 栈的压入、弹出序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指 Offer 31. 栈的压入、弹出序列" />
+    <MESSAGE value="剑指 Offer 66. 构建乘积数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指 Offer 66. 构建乘积数组" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1623722711552">
@@ -636,38 +640,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1877" height="369" key="GridCell.Tab.0.bottom" timestamp="1624078357985">
+    <state width="1877" height="166" key="GridCell.Tab.0.bottom" timestamp="1624089297958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624078357985" />
-    <state width="1877" height="369" key="GridCell.Tab.0.center" timestamp="1624078357984">
+    <state width="1877" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624089297958" />
+    <state width="1877" height="166" key="GridCell.Tab.0.center" timestamp="1624089297958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624078357984" />
-    <state width="1877" height="369" key="GridCell.Tab.0.left" timestamp="1624078357984">
+    <state width="1877" height="166" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624089297958" />
+    <state width="1877" height="166" key="GridCell.Tab.0.left" timestamp="1624089297958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624078357984" />
-    <state width="1877" height="369" key="GridCell.Tab.0.right" timestamp="1624078357984">
+    <state width="1877" height="166" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624089297958" />
+    <state width="1877" height="166" key="GridCell.Tab.0.right" timestamp="1624089297958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624078357984" />
-    <state width="1877" height="369" key="GridCell.Tab.1.bottom" timestamp="1624078358098">
+    <state width="1877" height="166" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624089297958" />
+    <state width="1877" height="166" key="GridCell.Tab.1.bottom" timestamp="1624089297958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624078358098" />
-    <state width="1877" height="369" key="GridCell.Tab.1.center" timestamp="1624078358098">
+    <state width="1877" height="166" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624089297958" />
+    <state width="1877" height="166" key="GridCell.Tab.1.center" timestamp="1624089297958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624078358098" />
-    <state width="1877" height="369" key="GridCell.Tab.1.left" timestamp="1624078358098">
+    <state width="1877" height="166" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624089297958" />
+    <state width="1877" height="166" key="GridCell.Tab.1.left" timestamp="1624089297958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624078358098" />
-    <state width="1877" height="369" key="GridCell.Tab.1.right" timestamp="1624078358098">
+    <state width="1877" height="166" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624089297958" />
+    <state width="1877" height="166" key="GridCell.Tab.1.right" timestamp="1624089297958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624078358098" />
+    <state width="1877" height="166" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624089297958" />
     <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1623725493350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -676,10 +680,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="798" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623031411392" />
-    <state x="661" y="252" width="598" height="536" key="find.popup" timestamp="1624074086703">
+    <state x="661" y="252" width="598" height="536" key="find.popup" timestamp="1624097576627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="252" width="598" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624074086703" />
+    <state x="661" y="252" width="598" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624097576627" />
     <state x="319" y="91" width="1356" height="730" key="new project wizard" timestamp="1617192322383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
