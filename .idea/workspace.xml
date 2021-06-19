@@ -16,9 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="同花顺笔试">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/TreeToDoublyList.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="剑指 Offer 31. 栈的压入、弹出序列">
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/ConstructArr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,21 +208,7 @@
       <workItem from="1623842047111" duration="16703000" />
       <workItem from="1623931750490" duration="3603000" />
       <workItem from="1623985062546" duration="10183000" />
-      <workItem from="1624069990382" duration="5692000" />
-    </task>
-    <task id="LOCAL-00059" summary="剑指offer：调整数组顺序使奇数位于偶数前面">
-      <created>1612954206805</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1612954206805</updated>
-    </task>
-    <task id="LOCAL-00060" summary="剑指offer：圆圈中最后剩下的数字">
-      <created>1612958450157</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1612958450157</updated>
+      <workItem from="1624069990382" duration="7544000" />
     </task>
     <task id="LOCAL-00061" summary="剑指offer：两个链表的第一个公共节点">
       <created>1612960635298</created>
@@ -554,7 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624076712919</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="树：层次遍历和中序遍历">
+      <created>1624079556341</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1624079556341</updated>
+    </task>
+    <task id="LOCAL-00109" summary="剑指 Offer 31. 栈的压入、弹出序列">
+      <created>1624080980591</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1624080980591</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,8 +584,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="动态规划：零钱兑换(递归)" />
-    <MESSAGE value="动态规划：动态规划" />
     <MESSAGE value="动态规划：动态规划+二分查找" />
     <MESSAGE value="设计题：二叉树的序列化与反序列化" />
     <MESSAGE value="设计题：常数时间插入、删除和获取随机元素" />
@@ -610,7 +607,9 @@
     <MESSAGE value="Offer:剑指 Offer 47. 礼物的最大价值" />
     <MESSAGE value="动态规划：买卖股票" />
     <MESSAGE value="同花顺笔试" />
-    <option name="LAST_COMMIT_MESSAGE" value="同花顺笔试" />
+    <MESSAGE value="树：层次遍历和中序遍历" />
+    <MESSAGE value="剑指 Offer 31. 栈的压入、弹出序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指 Offer 31. 栈的压入、弹出序列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1623722711552">
