@@ -16,9 +16,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="剑指 Offer 29. 顺时针打印矩阵&#10;剑指 Offer 65. 不用加减乘除做加法&#10;剑指 Offer 61. 扑克牌中的顺子">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/LevelOrderII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/PathSum.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="剑指 Offer 34. 二叉树中和为某一值的路径&#10;剑指 Offer 32 - III. 从上到下打印二叉树 III">
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/CuttingRope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/DicesProbability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MinNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/Permutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,13 +75,13 @@
       <recent name="medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PathSum">
-    <configuration name="LRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tonghuashun.LRU" />
-      <module name="14-written-examination" />
+  <component name="RunManager" selected="Application.Permutation">
+    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.PathSum" />
+      <module name="11-offer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tonghuashun.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.PathSum" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Permutation" />
       <module name="11-offer" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.PathSum" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.TreeToDoublyList" />
         <item itemvalue="Application.TopK" />
-        <item itemvalue="Application.LRU" />
       </list>
     </recent_temporary>
   </component>
@@ -213,14 +215,7 @@
       <workItem from="1623931750490" duration="3603000" />
       <workItem from="1623985062546" duration="10183000" />
       <workItem from="1624069990382" duration="9178000" />
-      <workItem from="1624096995604" duration="10004000" />
-    </task>
-    <task id="LOCAL-00064" summary="剑指offer：数组中的第K个最大元素">
-      <created>1613134185531</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1613134185531</updated>
+      <workItem from="1624096995604" duration="17246000" />
     </task>
     <task id="LOCAL-00065" summary="剑指offer：寻找峰值">
       <created>1613390695791</created>
@@ -558,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624103074832</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="剑指 Offer 34. 二叉树中和为某一值的路径&#10;剑指 Offer 32 - III. 从上到下打印二叉树 III">
+      <created>1624107885328</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1624107885329</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +591,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数学：快乐数" />
     <MESSAGE value="数组：找到所有数组中消失的数字" />
     <MESSAGE value="树：二叉树的直径" />
     <MESSAGE value="数学:比特位计数" />
@@ -614,17 +615,22 @@
     <MESSAGE value="剑指 Offer 66. 构建乘积数组" />
     <MESSAGE value="1239. 串联字符串的最大长度" />
     <MESSAGE value="剑指 Offer 29. 顺时针打印矩阵&#10;剑指 Offer 65. 不用加减乘除做加法&#10;剑指 Offer 61. 扑克牌中的顺子" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指 Offer 29. 顺时针打印矩阵&#10;剑指 Offer 65. 不用加减乘除做加法&#10;剑指 Offer 61. 扑克牌中的顺子" />
+    <MESSAGE value="剑指 Offer 34. 二叉树中和为某一值的路径&#10;剑指 Offer 32 - III. 从上到下打印二叉树 III" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指 Offer 34. 二叉树中和为某一值的路径&#10;剑指 Offer 32 - III. 从上到下打印二叉树 III" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="710" y="47" key="#Auto_Import" timestamp="1624261948536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="47" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1624261948536" />
     <state x="440" y="94" key="#Project_Structure" timestamp="1623722711552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1623722711552" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1618112861476">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1624265500331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618112861476" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1624265500331" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623287300336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -641,38 +647,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1624107767376">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1624264099720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624107767376" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1624107767376">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624264099720" />
+    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1624264099719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624107767376" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1624107767375">
+    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624264099719" />
+    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1624264099719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624107767375" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1624107767376">
+    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624264099719" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1624264099720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624107767376" />
-    <state width="1877" height="281" key="GridCell.Tab.1.bottom" timestamp="1624107767864">
+    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624264099720" />
+    <state width="1877" height="361" key="GridCell.Tab.1.bottom" timestamp="1624264100092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624107767864" />
-    <state width="1877" height="281" key="GridCell.Tab.1.center" timestamp="1624107767864">
+    <state width="1877" height="361" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624264100092" />
+    <state width="1877" height="361" key="GridCell.Tab.1.center" timestamp="1624264100091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624107767864" />
-    <state width="1877" height="281" key="GridCell.Tab.1.left" timestamp="1624107767863">
+    <state width="1877" height="361" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624264100091" />
+    <state width="1877" height="361" key="GridCell.Tab.1.left" timestamp="1624264100090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624107767863" />
-    <state width="1877" height="281" key="GridCell.Tab.1.right" timestamp="1624107767864">
+    <state width="1877" height="361" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624264100090" />
+    <state width="1877" height="361" key="GridCell.Tab.1.right" timestamp="1624264100091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624107767864" />
+    <state width="1877" height="361" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624264100091" />
     <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1623725493350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -695,15 +701,6 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623997056187" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/11-offer/src/medium/PathSum.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="base.TreeNode" memberName="val" />
