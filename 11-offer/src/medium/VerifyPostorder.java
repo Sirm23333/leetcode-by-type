@@ -29,6 +29,45 @@ public class VerifyPostorder {
         int len = postorder.length;
         if(len < 2) return true;
         int[] inorder = Arrays.copyOf(postorder,len);
-
+        Arrays.sort(inorder);
+        return verifyPostorder(postorder, 0 , len - 1 , inorder , 0 , len - 1);
+    }
+    // post [4, 6, 7, 5]
+    // in   [4, 5, 6, 7]
+    private boolean verifyPostorder(int[] postorder, int postStart, int postEnd, int[] inorder, int inStart, int inEnd) {
+        if(postStart == postEnd && inStart == inEnd && postorder[postStart] == inorder[inStart])
+            return true;
+        if(postStart > postEnd || inStart > inEnd)
+            return true;
+        int rootValue = postorder[postEnd]; // 5
+        int rootIdxInInOrder = inStart; // 1
+        for(;rootIdxInInOrder <= inEnd;rootIdxInInOrder++){
+            if (inorder[rootIdxInInOrder] == rootValue)
+                break;
+        }
+        if(rootIdxInInOrder > inEnd)
+            return false;
+        // 右子树数量
+        int rightSum = inEnd - rootIdxInInOrder; // 2
+        // 左子树数量
+        int leftSum = rootIdxInInOrder - inStart; // 1
+        return verifyPostorder(postorder , postEnd  - rightSum , postEnd - 1 , inorder , rootIdxInInOrder + 1 , inEnd ) &&
+                verifyPostorder(postorder , postStart , postStart + leftSum - 1 , inorder , inStart , rootIdxInInOrder - 1);
+    }
+    private boolean verifyPostorder(int[] postorder, int start, int end) {
+        if(start >= end)
+            return true;
+        int rootValue = postorder[end];
+        int rightIdx = start;
+        for(;rightIdx < end; rightIdx++){
+            if(postorder[rightIdx] > rootValue){
+                break;
+            }
+        }
+        for(int i = rightIdx; i < end ;i++){
+            if(postorder[i] < rootValue)
+                return false;
+        }
+        return verifyPostorder(postorder , start , rightIdx - 1) && verifyPostorder(postorder , rightIdx , end - 1);
     }
 }
