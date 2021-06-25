@@ -45,6 +45,13 @@ package medium;
  *
  * 输入：s = "    .1  "
  * 输出：true
+ *
+ * 注意以下特殊情况
+ * 1. s为null
+ * 2. s.trim().length()为0
+ * 3. e位置非法 "e123" "123e"
+ * 4. 整数符号不是首位、多个符号、只有符号没有数字 "123+9" "+123-32" "+"
+ * 5. 小数符号不是首位、多个符号、只有符号没有数字、只有小数点没有数字、多个小数点 "1.+3" "-3.2+4" "-" "." "1.3.2"
  */
 public class IsNumber {
     public static boolean isNumber(String s) {

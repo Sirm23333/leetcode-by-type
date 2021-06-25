@@ -16,16 +16,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="剑指 Offer 33. 二叉搜索树的后序遍历序列&#10;剑指 Offer 60. n个骰子的点数">
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/CuttingRopeII.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="剑指 Offer 14- II. 剪绳子&#10;剑指 Offer 20. 表示数值的字符串&#10;剑指 Offer 26. 树的子结构&#10;剑指 Offer 13. 机器人的运动范围&#10;剑指 Offer 16. 数值的整数次方&#10;剑指 Offer 33. 二叉搜索树的后序遍历序列">
       <change afterPath="$PROJECT_DIR$/11-offer/src/medium/FindNthDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/IsNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/IsSubStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MovingCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MyPow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/MaxQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/StrToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-offer/src/medium/TranslateNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-offer/src/medium/CuttingRope.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-offer/src/medium/CuttingRope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-offer/src/medium/VerifyPostorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-offer/src/medium/VerifyPostorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-offer/src/medium/IsNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-offer/src/medium/IsNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +77,7 @@
       <recent name="easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindNthDigit">
-    <configuration name="CuttingRopeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.CuttingRopeII" />
-      <module name="11-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
     <configuration name="FindNthDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.FindNthDigit" />
       <module name="11-offer" />
@@ -108,6 +93,19 @@
     </configuration>
     <configuration name="IsNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.IsNumber" />
+      <module name="11-offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.LengthOfLongestSubstring" />
       <module name="11-offer" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.FindNthDigit" />
         <item itemvalue="Application.MyPow" />
         <item itemvalue="Application.IsNumber" />
         <item itemvalue="Application.MovingCount" />
-        <item itemvalue="Application.CuttingRopeII" />
       </list>
     </recent_temporary>
   </component>
@@ -218,14 +216,7 @@
       <workItem from="1623985062546" duration="10183000" />
       <workItem from="1624069990382" duration="9178000" />
       <workItem from="1624096995604" duration="17892000" />
-      <workItem from="1624352015830" duration="22695000" />
-    </task>
-    <task id="LOCAL-00068" summary="剑指offer：合并区间(手写快排)">
-      <created>1613397730724</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1613397730724</updated>
+      <workItem from="1624352015830" duration="34283000" />
     </task>
     <task id="LOCAL-00069" summary="剑指offer：寻找峰值">
       <created>1613444247004</created>
@@ -563,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624354697097</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="剑指 Offer 14- II. 剪绳子&#10;剑指 Offer 20. 表示数值的字符串&#10;剑指 Offer 26. 树的子结构&#10;剑指 Offer 13. 机器人的运动范围&#10;剑指 Offer 16. 数值的整数次方&#10;剑指 Offer 33. 二叉搜索树的后序遍历序列">
+      <created>1624453181591</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1624453181591</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数学:比特位计数" />
     <MESSAGE value="数组：TopK问题" />
     <MESSAGE value="华为笔试" />
     <MESSAGE value="阿里高德一面题目" />
@@ -619,7 +616,8 @@
     <MESSAGE value="剑指 Offer 34. 二叉树中和为某一值的路径&#10;剑指 Offer 32 - III. 从上到下打印二叉树 III" />
     <MESSAGE value="剑指 Offer 60. n个骰子的点数&#10;剑指 Offer 14- I. 剪绳子&#10;剑指 Offer 45. 把数组排成最小的数&#10;剑指 Offer 38. 字符串的排列" />
     <MESSAGE value="剑指 Offer 33. 二叉搜索树的后序遍历序列&#10;剑指 Offer 60. n个骰子的点数" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指 Offer 33. 二叉搜索树的后序遍历序列&#10;剑指 Offer 60. n个骰子的点数" />
+    <MESSAGE value="剑指 Offer 14- II. 剪绳子&#10;剑指 Offer 20. 表示数值的字符串&#10;剑指 Offer 26. 树的子结构&#10;剑指 Offer 13. 机器人的运动范围&#10;剑指 Offer 16. 数值的整数次方&#10;剑指 Offer 33. 二叉搜索树的后序遍历序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指 Offer 14- II. 剪绳子&#10;剑指 Offer 20. 表示数值的字符串&#10;剑指 Offer 26. 树的子结构&#10;剑指 Offer 13. 机器人的运动范围&#10;剑指 Offer 16. 数值的整数次方&#10;剑指 Offer 33. 二叉搜索树的后序遍历序列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1624261948536">
@@ -650,38 +648,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1163" height="249" key="GridCell.Tab.0.bottom" timestamp="1624450371328">
+    <state width="1665" height="211" key="GridCell.Tab.0.bottom" timestamp="1624519093920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1163" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624450371328" />
-    <state width="1163" height="249" key="GridCell.Tab.0.center" timestamp="1624450371327">
+    <state width="1665" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624519093920" />
+    <state width="1665" height="211" key="GridCell.Tab.0.center" timestamp="1624519093920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1163" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624450371327" />
-    <state width="1163" height="249" key="GridCell.Tab.0.left" timestamp="1624450371327">
+    <state width="1665" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624519093920" />
+    <state width="1665" height="211" key="GridCell.Tab.0.left" timestamp="1624519093919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1163" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624450371327" />
-    <state width="1163" height="249" key="GridCell.Tab.0.right" timestamp="1624450371328">
+    <state width="1665" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624519093919" />
+    <state width="1665" height="211" key="GridCell.Tab.0.right" timestamp="1624519093920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1163" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624450371328" />
-    <state width="1163" height="249" key="GridCell.Tab.1.bottom" timestamp="1624450371643">
+    <state width="1665" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624519093920" />
+    <state width="1665" height="211" key="GridCell.Tab.1.bottom" timestamp="1624519094101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1163" height="249" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624450371643" />
-    <state width="1163" height="249" key="GridCell.Tab.1.center" timestamp="1624450371642">
+    <state width="1665" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624519094101" />
+    <state width="1665" height="211" key="GridCell.Tab.1.center" timestamp="1624519094101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1163" height="249" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624450371642" />
-    <state width="1163" height="249" key="GridCell.Tab.1.left" timestamp="1624450371642">
+    <state width="1665" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624519094101" />
+    <state width="1665" height="211" key="GridCell.Tab.1.left" timestamp="1624519094101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1163" height="249" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624450371642" />
-    <state width="1163" height="249" key="GridCell.Tab.1.right" timestamp="1624450371642">
+    <state width="1665" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624519094101" />
+    <state width="1665" height="211" key="GridCell.Tab.1.right" timestamp="1624519094101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1163" height="249" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624450371642" />
+    <state width="1665" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624519094101" />
     <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1624354704235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
