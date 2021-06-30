@@ -42,5 +42,70 @@ public class NumIslands {
             dfs(grid , i , j + 1 , visit);
     }
 
+    /**
+     * 使用并查集
+     * @param grid
+     * @return
+     */
+    public int numIslands2(char[][] grid) {
+        int m = grid.length;
+        if(m < 1)
+            return 0;
+        int n = grid[0].length;
+        UnionSet unionSet = new UnionSet(grid);
+        for(int i = 0 ; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(grid[i][j] == '1' && i > 0 && grid[i - 1][j] == '1')
+                    unionSet.union(i * n + j , (i - 1) * n + j);
+                if(grid[i][j] == '1' && j > 0 && grid[i][j - 1] == '1')
+                    unionSet.union(i * n + j , i * n +  (j - 1));
+            }
+        }
+        return unionSet.count;
+    }
+    class UnionSet{
+        int[] parent;
+        int[] rank;
+        int count = 0;
+        public UnionSet(char[][] grid){
+            int len = grid.length * grid[0].length;
+            parent = new int[len];
+            rank = new int[len];
+            for(int i = 0; i < len; i++){
+                if(grid[i / grid[0].length][i % grid[0].length] == '1'){
+                    parent[i] = i;
+                    rank[i] = 1;
+                    count++;
+                }else {
+                    parent[i] = -1;
+                }
+            }
+        }
+        // 路径压缩
+        public int find(int i){
+            if(parent[i] == i)
+                return i;
+            parent[i] = find(parent[i]);
+            return parent[i];
+        }
+        // 按秩合并
+        public void union(int i , int j){
+            int pi = find(i);
+            int pj = find(j);
+            if(pi != pj){
+                if(rank[pi] > rank[pj])
+                    parent[pj] = pi;
+                else if(rank[pi] < rank[pj])
+                    parent[pj] = pi;
+                else {
+                    parent[pi] = pj;
+                    rank[pj]++;
+                }
+                count--;
+            }
+        }
+
+    }
+
 
 }
