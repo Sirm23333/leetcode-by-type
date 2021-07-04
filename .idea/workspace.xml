@@ -16,12 +16,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="岛屿数量&#10;128. 最长连续序列">
-      <change afterPath="$PROJECT_DIR$/12-graph/src/hard/MinSwapsCouples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-graph/src/medium/MinCostConnectPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-graph/src/medium/MinimumCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-array/src/medium/AccountsMerge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/Jump.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="721. 账户合并&#10;765. 情侣牵手&#10;45. 跳跃游戏 II&#10;1584. 连接所有点的最小费用&#10;1135. 最低成本联通所有城市">
+      <change afterPath="$PROJECT_DIR$/12-graph/src/hard/FindCriticalAndPseudoCriticalEdges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-written-examination/src/dahua/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-written-examination/src/dahua/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,20 +74,7 @@
       <recent name="easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinSwapsCouples">
-    <configuration name="FindNthDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.FindNthDigit" />
-      <module name="11-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test2">
     <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.Jump" />
       <module name="7-dynamic-programming" />
@@ -142,6 +127,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dahua.Test2" />
+      <module name="14-written-examination" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dahua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -157,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.MinSwapsCouples" />
         <item itemvalue="Application.Jump" />
         <item itemvalue="Application.LongestConsecutive" />
         <item itemvalue="Application.LengthOfLongestSubstring" />
-        <item itemvalue="Application.FindNthDigit" />
       </list>
     </recent_temporary>
   </component>
@@ -218,14 +216,7 @@
       <workItem from="1624069990382" duration="9178000" />
       <workItem from="1624096995604" duration="17892000" />
       <workItem from="1624352015830" duration="61425000" />
-      <workItem from="1625021895680" duration="22053000" />
-    </task>
-    <task id="LOCAL-00073" summary="剑指offer：包含 min 函数的栈">
-      <created>1613884256138</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1613884256138</updated>
+      <workItem from="1625021895680" duration="28787000" />
     </task>
     <task id="LOCAL-00074" summary="剑指offer：包含 min 函数的栈（第二种方法）">
       <created>1613884410996</created>
@@ -563,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625021972173</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="721. 账户合并&#10;765. 情侣牵手&#10;45. 跳跃游戏 II&#10;1584. 连接所有点的最小费用&#10;1135. 最低成本联通所有城市">
+      <created>1625135196019</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1625135196019</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="阿里一面面试" />
     <MESSAGE value="图：剑指 Offer 12. 矩阵中的路径" />
     <MESSAGE value="Offer:剑指 Offer 07. 重建二叉树" />
     <MESSAGE value="Offer:剑指 Offer 42. 连续子数组的最大和" />
@@ -619,7 +616,8 @@
     <MESSAGE value="剑指 Offer 59 - I. 滑动窗口的最大值" />
     <MESSAGE value="133. 克隆图&#10;207. 课程表&#10;210. 课程表 II" />
     <MESSAGE value="岛屿数量&#10;128. 最长连续序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="岛屿数量&#10;128. 最长连续序列" />
+    <MESSAGE value="721. 账户合并&#10;765. 情侣牵手&#10;45. 跳跃游戏 II&#10;1584. 连接所有点的最小费用&#10;1135. 最低成本联通所有城市" />
+    <option name="LAST_COMMIT_MESSAGE" value="721. 账户合并&#10;765. 情侣牵手&#10;45. 跳跃游戏 II&#10;1584. 连接所有点的最小费用&#10;1135. 最低成本联通所有城市" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1624261948536">
@@ -630,10 +628,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1624868354751" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1624265500331">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1625194694989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1624265500331" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1625194694989" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623287300336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -650,38 +648,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1877" height="143" key="GridCell.Tab.0.bottom" timestamp="1625108960410">
+    <state width="1542" height="386" key="GridCell.Tab.0.bottom" timestamp="1625193172779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625108960410" />
-    <state width="1877" height="143" key="GridCell.Tab.0.center" timestamp="1625108960410">
+    <state width="1542" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625193172779" />
+    <state width="1542" height="386" key="GridCell.Tab.0.center" timestamp="1625193172776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625108960410" />
-    <state width="1877" height="143" key="GridCell.Tab.0.left" timestamp="1625108960409">
+    <state width="1542" height="386" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625193172776" />
+    <state width="1542" height="386" key="GridCell.Tab.0.left" timestamp="1625193172775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625108960409" />
-    <state width="1877" height="143" key="GridCell.Tab.0.right" timestamp="1625108960410">
+    <state width="1542" height="386" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625193172775" />
+    <state width="1542" height="386" key="GridCell.Tab.0.right" timestamp="1625193172777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625108960410" />
-    <state width="1877" height="143" key="GridCell.Tab.1.bottom" timestamp="1625108960738">
+    <state width="1542" height="386" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625193172777" />
+    <state width="1877" height="303" key="GridCell.Tab.1.bottom" timestamp="1625135202860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625108960738" />
-    <state width="1877" height="143" key="GridCell.Tab.1.center" timestamp="1625108960737">
+    <state width="1877" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625135202860" />
+    <state width="1877" height="303" key="GridCell.Tab.1.center" timestamp="1625135202860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625108960737" />
-    <state width="1877" height="143" key="GridCell.Tab.1.left" timestamp="1625108960737">
+    <state width="1877" height="303" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625135202860" />
+    <state width="1877" height="303" key="GridCell.Tab.1.left" timestamp="1625135202860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625108960737" />
-    <state width="1877" height="143" key="GridCell.Tab.1.right" timestamp="1625108960738">
+    <state width="1877" height="303" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625135202860" />
+    <state width="1877" height="303" key="GridCell.Tab.1.right" timestamp="1625135202860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625108960738" />
+    <state width="1877" height="303" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625135202860" />
     <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1624588276702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
