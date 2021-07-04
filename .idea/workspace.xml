@@ -16,12 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="721. 账户合并&#10;765. 情侣牵手&#10;45. 跳跃游戏 II&#10;1584. 连接所有点的最小费用&#10;1135. 最低成本联通所有城市">
-      <change afterPath="$PROJECT_DIR$/12-graph/src/hard/FindCriticalAndPseudoCriticalEdges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-written-examination/src/dahua/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-written-examination/src/dahua/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="1489. 找到最小生成树里的关键边和伪关键边" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,21 +211,7 @@
       <workItem from="1624069990382" duration="9178000" />
       <workItem from="1624096995604" duration="17892000" />
       <workItem from="1624352015830" duration="61425000" />
-      <workItem from="1625021895680" duration="28787000" />
-    </task>
-    <task id="LOCAL-00074" summary="剑指offer：包含 min 函数的栈（第二种方法）">
-      <created>1613884410996</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1613884410996</updated>
-    </task>
-    <task id="LOCAL-00075" summary="动态规划：跳跃游戏">
-      <created>1614063554009</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1614063554009</updated>
+      <workItem from="1625021895680" duration="29264000" />
     </task>
     <task id="LOCAL-00076" summary="动态规划：跳跃游戏">
       <created>1614143265302</created>
@@ -561,7 +542,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625135196019</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="大华笔试">
+      <created>1625368544459</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1625368544460</updated>
+    </task>
+    <task id="LOCAL-00124" summary="1489. 找到最小生成树里的关键边和伪关键边">
+      <created>1625368561153</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1625368561153</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,8 +587,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="图：剑指 Offer 12. 矩阵中的路径" />
-    <MESSAGE value="Offer:剑指 Offer 07. 重建二叉树" />
     <MESSAGE value="Offer:剑指 Offer 42. 连续子数组的最大和" />
     <MESSAGE value="Offer:剑指 Offer 11. 旋转数组的最小数字" />
     <MESSAGE value="Offer:剑指 Offer 62. 圆圈中最后剩下的数字" />
@@ -617,7 +610,9 @@
     <MESSAGE value="133. 克隆图&#10;207. 课程表&#10;210. 课程表 II" />
     <MESSAGE value="岛屿数量&#10;128. 最长连续序列" />
     <MESSAGE value="721. 账户合并&#10;765. 情侣牵手&#10;45. 跳跃游戏 II&#10;1584. 连接所有点的最小费用&#10;1135. 最低成本联通所有城市" />
-    <option name="LAST_COMMIT_MESSAGE" value="721. 账户合并&#10;765. 情侣牵手&#10;45. 跳跃游戏 II&#10;1584. 连接所有点的最小费用&#10;1135. 最低成本联通所有城市" />
+    <MESSAGE value="大华笔试" />
+    <MESSAGE value="1489. 找到最小生成树里的关键边和伪关键边" />
+    <option name="LAST_COMMIT_MESSAGE" value="1489. 找到最小生成树里的关键边和伪关键边" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1624261948536">
@@ -648,22 +643,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1542" height="386" key="GridCell.Tab.0.bottom" timestamp="1625193172779">
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1625368990984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1542" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625193172779" />
-    <state width="1542" height="386" key="GridCell.Tab.0.center" timestamp="1625193172776">
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625368990984" />
+    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1625368990983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1542" height="386" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625193172776" />
-    <state width="1542" height="386" key="GridCell.Tab.0.left" timestamp="1625193172775">
+    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625368990983" />
+    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1625368990982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1542" height="386" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625193172775" />
-    <state width="1542" height="386" key="GridCell.Tab.0.right" timestamp="1625193172777">
+    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625368990982" />
+    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1625368990983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1542" height="386" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625193172777" />
+    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625368990983" />
     <state width="1877" height="303" key="GridCell.Tab.1.bottom" timestamp="1625135202860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -680,10 +675,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="303" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625135202860" />
-    <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1624588276702">
+    <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1625368994806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="391" y="143" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1624588276702" />
+    <state x="391" y="143" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625368994806" />
     <state x="798" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623031411392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
