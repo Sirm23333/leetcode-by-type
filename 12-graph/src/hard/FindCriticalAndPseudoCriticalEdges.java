@@ -18,14 +18,66 @@ public class FindCriticalAndPseudoCriticalEdges {
         }
         // 边排序
         Arrays.sort(edges, Comparator.comparingInt(o -> o[2]));
-        // Kruskal算法走起
+        // Kruskal算法走起，求出最小生成树的权值
         UnionSet unionSet = new UnionSet(n);
         List<List<Integer>> rs = new ArrayList<>();
         rs.add(new ArrayList<>());
         rs.add(new ArrayList<>());
-        int sum = 0, i = 0;
-        while(sum < n - 1 && i < n){
-
+        int value = 0, i = 0;
+        for (int[] edge : edges) {
+            if(unionSet.find(edge[0]) != unionSet.find(edge[1])){
+                unionSet.union(edge[0],edge[1]);
+                value += edge[2];
+                i++;
+            }
+            if(i == n - 1)
+                break;
+        }
+        // 枚举寻找关键边，强制不选一条边，如果value变大，则为关键边
+        int tmpValue = 0 , tmpI = 0;
+        Set<Integer> keyEdgeSet = new HashSet<>();
+        for(int a = 0; a < edges.length; a++){
+            tmpI = 0;
+            tmpValue = 0;
+            unionSet.init();
+            for(int b = 0; b < edges.length; b++){
+                if(a == b)
+                    continue;
+                if(unionSet.find(edges[b][0]) != unionSet.find(edges[b][1])){
+                    unionSet.union(edges[b][0],edges[b][1]);
+                    tmpValue += edges[b][2];
+                    tmpI++;
+                }
+                if(tmpI == n - 1)
+                    break;
+            }
+            if(tmpI != n - 1 || tmpValue > value){
+                rs.get(0).add(edgeMap.get(edges[a]));
+                keyEdgeSet.add(a);
+            }
+        }
+        // 枚举伪关键边，强制选择一条边，如果value不变且该边不是关建边，则为伪关建边
+        for(int a = 0; a < edges.length; a++){
+            tmpI = 0;
+            tmpValue = 0;
+            unionSet.init();
+            if(!keyEdgeSet.contains(a)){
+                unionSet.union(edges[a][0],edges[a][1]);
+                tmpValue += edges[a][2];
+                tmpI++;
+                for(int b = 0; b < edges.length; b++){
+                    if(unionSet.find(edges[b][0]) != unionSet.find(edges[b][1])){
+                        unionSet.union(edges[b][0],edges[b][1]);
+                        tmpValue += edges[b][2];
+                        tmpI++;
+                    }
+                    if(tmpI == n - 1)
+                        break;
+                }
+                if(tmpI == n - 1 && tmpValue == value){
+                    rs.get(1).add(edgeMap.get(edges[a]));
+                }
+            }
         }
         return rs;
     }
@@ -35,7 +87,10 @@ public class FindCriticalAndPseudoCriticalEdges {
         public UnionSet(int len){
             parent = new int[len];
             rank = new int[len];
-            for (int i = 0; i < len; i++) {
+            init();
+        }
+        public void init(){
+            for (int i = 0; i < parent.length; i++) {
                 parent[i] = i;
                 rank[i] = 1;
             }
@@ -60,5 +115,11 @@ public class FindCriticalAndPseudoCriticalEdges {
                 }
             }
         }
+    }
+
+    public static void main(String[] args) {
+
+        FindCriticalAndPseudoCriticalEdges f = new FindCriticalAndPseudoCriticalEdges();
+        f.findCriticalAndPseudoCriticalEdges(5,new int[][]{{0,1,1},{1,2,1},{2,3,2},{0,3,2},{0,4,3},{3,4,3},{1,4,6}});
     }
 }

@@ -16,7 +16,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="1489. 找到最小生成树里的关键边和伪关键边" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="1489. 找到最小生成树里的关键边和伪关键边">
+      <change afterPath="$PROJECT_DIR$/12-graph/src/hard/MinCostToSupplyWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-written-examination/src/xiapi/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-array/src/medium/DailyTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-array/src/medium/ReverseParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-graph/src/hard/FindCriticalAndPseudoCriticalEdges.java" beforeDir="false" afterPath="$PROJECT_DIR$/12-graph/src/hard/FindCriticalAndPseudoCriticalEdges.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,36 +76,23 @@
       <recent name="easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test2">
+  <component name="RunManager" selected="Application.Test1">
+    <configuration name="FindCriticalAndPseudoCriticalEdges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hard.FindCriticalAndPseudoCriticalEdges" />
+      <module name="12-graph" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.Jump" />
       <module name="7-dynamic-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.LengthOfLongestSubstring" />
-      <module name="11-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.LongestConsecutive" />
-      <module name="2-array" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="medium.*" />
@@ -115,6 +109,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xiapi.Test1" />
+      <module name="14-written-examination" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xiapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.FindCriticalAndPseudoCriticalEdges" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.MinSwapsCouples" />
         <item itemvalue="Application.Jump" />
-        <item itemvalue="Application.LongestConsecutive" />
-        <item itemvalue="Application.LengthOfLongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -211,14 +218,7 @@
       <workItem from="1624069990382" duration="9178000" />
       <workItem from="1624096995604" duration="17892000" />
       <workItem from="1624352015830" duration="61425000" />
-      <workItem from="1625021895680" duration="29264000" />
-    </task>
-    <task id="LOCAL-00076" summary="动态规划：跳跃游戏">
-      <created>1614143265302</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1614143265303</updated>
+      <workItem from="1625021895680" duration="45813000" />
     </task>
     <task id="LOCAL-00077" summary="树：对称二叉树">
       <created>1614215488159</created>
@@ -556,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625368561153</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="1489. 找到最小生成树里的关键边和伪关键边">
+      <created>1625369030780</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1625369030780</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,10 +638,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623287300336" />
-    <state x="1286" y="139" key="#xdebugger.evaluate" timestamp="1624967244608">
+    <state x="1286" y="139" key="#xdebugger.evaluate" timestamp="1625471861774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1286" y="139" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1624967244608" />
+    <state x="1286" y="139" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1625471861774" />
     <state x="308" y="85" width="1535" height="869" key="DiffContextDialog" timestamp="1617080859229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -643,42 +650,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1625368990984">
+    <state width="1542" height="84" key="GridCell.Tab.0.bottom" timestamp="1625472710844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625368990984" />
-    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1625368990983">
+    <state width="1542" height="84" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625472710844" />
+    <state width="1542" height="84" key="GridCell.Tab.0.center" timestamp="1625472710841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625368990983" />
-    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1625368990982">
+    <state width="1542" height="84" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625472710841" />
+    <state width="1542" height="84" key="GridCell.Tab.0.left" timestamp="1625472710840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625368990982" />
-    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1625368990983">
+    <state width="1542" height="84" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625472710840" />
+    <state width="1542" height="84" key="GridCell.Tab.0.right" timestamp="1625472710843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625368990983" />
-    <state width="1877" height="303" key="GridCell.Tab.1.bottom" timestamp="1625135202860">
+    <state width="1542" height="84" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625472710843" />
+    <state width="1877" height="143" key="GridCell.Tab.1.bottom" timestamp="1625472661231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625135202860" />
-    <state width="1877" height="303" key="GridCell.Tab.1.center" timestamp="1625135202860">
+    <state width="1877" height="143" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625472661231" />
+    <state width="1877" height="143" key="GridCell.Tab.1.center" timestamp="1625472661230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625135202860" />
-    <state width="1877" height="303" key="GridCell.Tab.1.left" timestamp="1625135202860">
+    <state width="1877" height="143" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625472661230" />
+    <state width="1877" height="143" key="GridCell.Tab.1.left" timestamp="1625472661230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625135202860" />
-    <state width="1877" height="303" key="GridCell.Tab.1.right" timestamp="1625135202860">
+    <state width="1877" height="143" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625472661230" />
+    <state width="1877" height="143" key="GridCell.Tab.1.right" timestamp="1625472661230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625135202860" />
-    <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1625368994806">
+    <state width="1877" height="143" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625472661230" />
+    <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1625369040356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="391" y="143" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625368994806" />
+    <state x="391" y="143" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625369040356" />
     <state x="798" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623031411392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -695,10 +702,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624445205918" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1624968304202">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625475463703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624968304202" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625475463703" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
