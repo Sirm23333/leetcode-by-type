@@ -16,13 +16,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="1489. 找到最小生成树里的关键边和伪关键边">
-      <change afterPath="$PROJECT_DIR$/12-graph/src/hard/MinCostToSupplyWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-written-examination/src/xiapi/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-array/src/medium/DailyTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-array/src/medium/ReverseParentheses.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="739. 每日温度&#10;1489. 找到最小生成树里的关键边和伪关键边&#10;1168. 水资源分配优化&#10;1190. 反转每对括号间的子串">
+      <change afterPath="$PROJECT_DIR$/2-array/src/medium/FindMaxLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-array/src/medium/SubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/MaximalSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-graph/src/hard/FindCriticalAndPseudoCriticalEdges.java" beforeDir="false" afterPath="$PROJECT_DIR$/12-graph/src/hard/FindCriticalAndPseudoCriticalEdges.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <recent name="easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.SubarraySum">
     <configuration name="FindCriticalAndPseudoCriticalEdges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hard.FindCriticalAndPseudoCriticalEdges" />
       <module name="12-graph" />
@@ -90,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Jump" />
-      <module name="7-dynamic-programming" />
+    <configuration name="MinSwapsCouples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hard.MinSwapsCouples" />
+      <module name="12-graph" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSwapsCouples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.MinSwapsCouples" />
-      <module name="12-graph" />
+    <configuration name="SubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.SubarraySum" />
+      <module name="2-array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubarraySum" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.FindCriticalAndPseudoCriticalEdges" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.MinSwapsCouples" />
-        <item itemvalue="Application.Jump" />
       </list>
     </recent_temporary>
   </component>
@@ -218,14 +216,7 @@
       <workItem from="1624069990382" duration="9178000" />
       <workItem from="1624096995604" duration="17892000" />
       <workItem from="1624352015830" duration="61425000" />
-      <workItem from="1625021895680" duration="45813000" />
-    </task>
-    <task id="LOCAL-00077" summary="树：对称二叉树">
-      <created>1614215488159</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1614215488159</updated>
+      <workItem from="1625021895680" duration="50474000" />
     </task>
     <task id="LOCAL-00078" summary="动态规划：最长上升子序列">
       <created>1614215509581</created>
@@ -563,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625369030780</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="739. 每日温度&#10;1489. 找到最小生成树里的关键边和伪关键边&#10;1168. 水资源分配优化&#10;1190. 反转每对括号间的子串">
+      <created>1625536660883</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1625536660884</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Offer:剑指 Offer 42. 连续子数组的最大和" />
     <MESSAGE value="Offer:剑指 Offer 11. 旋转数组的最小数字" />
     <MESSAGE value="Offer:剑指 Offer 62. 圆圈中最后剩下的数字" />
     <MESSAGE value="Offer:剑指 Offer 56 - II. 数组中数字出现的次数 II" />
@@ -619,7 +616,8 @@
     <MESSAGE value="721. 账户合并&#10;765. 情侣牵手&#10;45. 跳跃游戏 II&#10;1584. 连接所有点的最小费用&#10;1135. 最低成本联通所有城市" />
     <MESSAGE value="大华笔试" />
     <MESSAGE value="1489. 找到最小生成树里的关键边和伪关键边" />
-    <option name="LAST_COMMIT_MESSAGE" value="1489. 找到最小生成树里的关键边和伪关键边" />
+    <MESSAGE value="739. 每日温度&#10;1489. 找到最小生成树里的关键边和伪关键边&#10;1168. 水资源分配优化&#10;1190. 反转每对括号间的子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="739. 每日温度&#10;1489. 找到最小生成树里的关键边和伪关键边&#10;1168. 水资源分配优化&#10;1190. 反转每对括号间的子串" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1624261948536">
@@ -650,38 +648,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1542" height="84" key="GridCell.Tab.0.bottom" timestamp="1625472710844">
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1625540501313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1542" height="84" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625472710844" />
-    <state width="1542" height="84" key="GridCell.Tab.0.center" timestamp="1625472710841">
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501313" />
+    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1625540501313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1542" height="84" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625472710841" />
-    <state width="1542" height="84" key="GridCell.Tab.0.left" timestamp="1625472710840">
+    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501313" />
+    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1625540501312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1542" height="84" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625472710840" />
-    <state width="1542" height="84" key="GridCell.Tab.0.right" timestamp="1625472710843">
+    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501312" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1625540501313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1542" height="84" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625472710843" />
-    <state width="1877" height="143" key="GridCell.Tab.1.bottom" timestamp="1625472661231">
+    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501313" />
+    <state width="1877" height="316" key="GridCell.Tab.1.bottom" timestamp="1625540501696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625472661231" />
-    <state width="1877" height="143" key="GridCell.Tab.1.center" timestamp="1625472661230">
+    <state width="1877" height="316" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501696" />
+    <state width="1877" height="316" key="GridCell.Tab.1.center" timestamp="1625540501696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625472661230" />
-    <state width="1877" height="143" key="GridCell.Tab.1.left" timestamp="1625472661230">
+    <state width="1877" height="316" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501696" />
+    <state width="1877" height="316" key="GridCell.Tab.1.left" timestamp="1625540501695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625472661230" />
-    <state width="1877" height="143" key="GridCell.Tab.1.right" timestamp="1625472661230">
+    <state width="1877" height="316" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501695" />
+    <state width="1877" height="316" key="GridCell.Tab.1.right" timestamp="1625540501696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="143" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625472661230" />
+    <state width="1877" height="316" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501696" />
     <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1625369040356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -702,10 +700,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624445205918" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625475463703">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625541650470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625475463703" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625541650470" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
