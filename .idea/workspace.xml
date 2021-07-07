@@ -16,10 +16,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="739. 每日温度&#10;1489. 找到最小生成树里的关键边和伪关键边&#10;1168. 水资源分配优化&#10;1190. 反转每对括号间的子串">
-      <change afterPath="$PROJECT_DIR$/2-array/src/medium/FindMaxLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-array/src/medium/SubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-dynamic-programming/src/medium/MaximalSquare.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="525. 连续数组&#10;221. 最大正方形&#10;560. 和为K的子数组">
+      <change afterPath="$PROJECT_DIR$/15-interview/15-interview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-interview/src/medium/Trap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,14 +216,7 @@
       <workItem from="1624069990382" duration="9178000" />
       <workItem from="1624096995604" duration="17892000" />
       <workItem from="1624352015830" duration="61425000" />
-      <workItem from="1625021895680" duration="50474000" />
-    </task>
-    <task id="LOCAL-00078" summary="动态规划：最长上升子序列">
-      <created>1614215509581</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1614215509581</updated>
+      <workItem from="1625021895680" duration="55001000" />
     </task>
     <task id="LOCAL-00079" summary="动态规划：零钱兑换，超时">
       <created>1614411142389</created>
@@ -561,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625536660884</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="525. 连续数组&#10;221. 最大正方形&#10;560. 和为K的子数组">
+      <created>1625553549050</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1625553549050</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Offer:剑指 Offer 11. 旋转数组的最小数字" />
     <MESSAGE value="Offer:剑指 Offer 62. 圆圈中最后剩下的数字" />
     <MESSAGE value="Offer:剑指 Offer 56 - II. 数组中数字出现的次数 II" />
     <MESSAGE value="Offer:剑指 Offer 56 - I. 数组中数字出现的次数" />
@@ -617,7 +616,8 @@
     <MESSAGE value="大华笔试" />
     <MESSAGE value="1489. 找到最小生成树里的关键边和伪关键边" />
     <MESSAGE value="739. 每日温度&#10;1489. 找到最小生成树里的关键边和伪关键边&#10;1168. 水资源分配优化&#10;1190. 反转每对括号间的子串" />
-    <option name="LAST_COMMIT_MESSAGE" value="739. 每日温度&#10;1489. 找到最小生成树里的关键边和伪关键边&#10;1168. 水资源分配优化&#10;1190. 反转每对括号间的子串" />
+    <MESSAGE value="525. 连续数组&#10;221. 最大正方形&#10;560. 和为K的子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="525. 连续数组&#10;221. 最大正方形&#10;560. 和为K的子数组" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1624261948536">
@@ -692,10 +692,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="252" width="598" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624097576627" />
-    <state x="319" y="91" width="1356" height="730" key="new project wizard" timestamp="1617192322383">
+    <state x="319" y="91" width="1356" height="730" key="new project wizard" timestamp="1625553641418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="319" y="91" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1617192322383" />
+    <state x="319" y="91" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1625553641418" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1624445205918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
