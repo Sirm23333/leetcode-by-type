@@ -16,9 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="面试题 17.21. 直方图的水量">
-      <change afterPath="$PROJECT_DIR$/12-graph/src/medium/FindTheCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-graph/src/medium/NetworkDelayTime.java" afterDir="false" />
+    <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="1334. 阈值距离内邻居最少的城市&#10;743. 网络延迟时间">
+      <change afterPath="$PROJECT_DIR$/12-graph/src/medium/FindCheapestPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-graph/src/medium/MazeII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <recent name="easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubarraySum">
+  <component name="RunManager" selected="Application.MazeII">
     <configuration name="FindCriticalAndPseudoCriticalEdges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hard.FindCriticalAndPseudoCriticalEdges" />
       <module name="12-graph" />
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSwapsCouples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.MinSwapsCouples" />
+    <configuration name="MazeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.MazeII" />
       <module name="12-graph" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,26 +139,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MazeII" />
         <item itemvalue="Application.SubarraySum" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.FindCriticalAndPseudoCriticalEdges" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.MinSwapsCouples" />
       </list>
     </recent_temporary>
   </component>
@@ -215,14 +213,8 @@
       <workItem from="1624069990382" duration="9178000" />
       <workItem from="1624096995604" duration="17892000" />
       <workItem from="1624352015830" duration="61425000" />
-      <workItem from="1625021895680" duration="61160000" />
-    </task>
-    <task id="LOCAL-00080" summary="动态规划：零钱兑换，bfs超时">
-      <created>1614563123320</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1614563123320</updated>
+      <workItem from="1625021895680" duration="66215000" />
+      <workItem from="1625881361453" duration="9781000" />
     </task>
     <task id="LOCAL-00081" summary="动态规划：动态规划">
       <created>1614565909499</created>
@@ -560,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625624095617</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="1334. 阈值距离内邻居最少的城市&#10;743. 网络延迟时间">
+      <created>1625735457883</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1625735457883</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Offer:剑指 Offer 56 - II. 数组中数字出现的次数 II" />
     <MESSAGE value="Offer:剑指 Offer 56 - I. 数组中数字出现的次数" />
     <MESSAGE value="Offer:剑指 Offer 35. 复杂链表的复制" />
     <MESSAGE value="Offer:剑指 Offer 47. 礼物的最大价值" />
@@ -616,7 +614,8 @@
     <MESSAGE value="739. 每日温度&#10;1489. 找到最小生成树里的关键边和伪关键边&#10;1168. 水资源分配优化&#10;1190. 反转每对括号间的子串" />
     <MESSAGE value="525. 连续数组&#10;221. 最大正方形&#10;560. 和为K的子数组" />
     <MESSAGE value="面试题 17.21. 直方图的水量" />
-    <option name="LAST_COMMIT_MESSAGE" value="面试题 17.21. 直方图的水量" />
+    <MESSAGE value="1334. 阈值距离内邻居最少的城市&#10;743. 网络延迟时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="1334. 阈值距离内邻居最少的城市&#10;743. 网络延迟时间" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="47" key="#Auto_Import" timestamp="1624261948536">
@@ -639,46 +638,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1286" y="139" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1625471861774" />
-    <state x="308" y="85" width="1535" height="869" key="DiffContextDialog" timestamp="1617080859229">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="308" y="85" width="1535" height="869" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617080859229" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1623136180110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623136180110" />
-    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1625540501313">
+    <state width="1877" height="163" key="GridCell.Tab.0.bottom" timestamp="1625910805118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501313" />
-    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1625540501313">
+    <state width="1877" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625910805118" />
+    <state width="1877" height="163" key="GridCell.Tab.0.center" timestamp="1625910805117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501313" />
-    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1625540501312">
+    <state width="1877" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625910805117" />
+    <state width="1877" height="163" key="GridCell.Tab.0.left" timestamp="1625910805117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501312" />
-    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1625540501313">
+    <state width="1877" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625910805117" />
+    <state width="1877" height="163" key="GridCell.Tab.0.right" timestamp="1625910805118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501313" />
-    <state width="1877" height="316" key="GridCell.Tab.1.bottom" timestamp="1625540501696">
+    <state width="1877" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625910805118" />
+    <state width="1877" height="163" key="GridCell.Tab.1.bottom" timestamp="1625910804783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501696" />
-    <state width="1877" height="316" key="GridCell.Tab.1.center" timestamp="1625540501696">
+    <state width="1877" height="163" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625910804783" />
+    <state width="1877" height="163" key="GridCell.Tab.1.center" timestamp="1625910804782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501696" />
-    <state width="1877" height="316" key="GridCell.Tab.1.left" timestamp="1625540501695">
+    <state width="1877" height="163" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625910804782" />
+    <state width="1877" height="163" key="GridCell.Tab.1.left" timestamp="1625910804782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501695" />
-    <state width="1877" height="316" key="GridCell.Tab.1.right" timestamp="1625540501696">
+    <state width="1877" height="163" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625910804782" />
+    <state width="1877" height="163" key="GridCell.Tab.1.right" timestamp="1625910804782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625540501696" />
+    <state width="1877" height="163" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625910804782" />
     <state x="391" y="143" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1625369040356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -699,10 +694,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624445205918" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625541650470">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625741676985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625541650470" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625741676985" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
