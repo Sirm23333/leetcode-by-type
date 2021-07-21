@@ -17,8 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc041ef-5eb2-4120-b8c4-586edeaf4500" name="Default Changelist" comment="1334. 阈值距离内邻居最少的城市&#10;743. 网络延迟时间">
-      <change afterPath="$PROJECT_DIR$/12-graph/src/medium/FindCheapestPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-graph/src/medium/MazeII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-written-examination/src/huawei/Test721.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +48,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -139,13 +139,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,6 +217,7 @@
       <workItem from="1624352015830" duration="61425000" />
       <workItem from="1625021895680" duration="66215000" />
       <workItem from="1625881361453" duration="9781000" />
+      <workItem from="1626870770700" duration="182000" />
     </task>
     <task id="LOCAL-00081" summary="动态规划：动态规划">
       <created>1614565909499</created>
